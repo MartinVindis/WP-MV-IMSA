@@ -1,0 +1,441 @@
+ SearchPath=<TEAMDIR>..\
+ SearchPath=<TEAMDIR>
+ SearchPath=<VEHDIR>
+ SearchPath=<VEHDIR>\WP&MV Enduro\GTD\Lamborghini_Huracan
+ MASFile=WP&MV Enduro\GTD\Lamborghini_Huracan\Lambo_Huracan.mas
+ MASFile=WP&MV Enduro\GTD\Lamborghini_Huracan\Lambo_Huracan_Cpit.mas
+ MASFile=WP&MV Enduro\GTD\Lamborghini_Huracan\Lambo_Huracan_Lights_A.mas
+ MASFile=WP&MV Enduro\GTD\Lamborghini_Huracan\Lambo_Huracan_Tex.mas
+ MASFile=WP&MV Enduro\MVWPMAPS.mas
+
+Instance=SLOT<ID>
+{
+ Moveable=True
+ MeshFile=Lambo_Huracan_COLL.gmt Render=False CollTarget=True HATTarget=False LODIn=(0.0) LODOut=(200.0)
+ 
+ <LOW> MeshFile=Lambo_Huracan_SHAD.GMT Render=False CollTarget=False HATTarget=False ShadowObject=(Dynamic, Solid, 128, 128, GT3_AMBIENTSHADOW.dds) LODIn=(0.0) LODOut=(80.0)
+ <MED> MeshFile=Lambo_Huracan_SHAD.GMT Render=False CollTarget=False HATTarget=False ShadowObject=(Dynamic, Solid, 128, 128, GT3_AMBIENTSHADOW.dds) LODIn=(0.0) LODOut=(100.0)
+ <HIGH> MeshFile=Lambo_Huracan_SHAD.GMT Render=False CollTarget=False HATTarget=False ShadowObject=(Dynamic, Solid, 256, 256, GT3_AMBIENTSHADOW.dds) LODIn=(0.0) LODOut=(200.0)
+ <MAX> MeshFile=Lambo_Huracan_SHAD.GMT Render=False CollTarget=False HATTarget=False ShadowObject=(Dynamic, Solid, 512, 512, GT3_AMBIENTSHADOW.dds) LODIn=(0.0) LODOut=(300.0)
+
+ <LOW> MeshFile=Lambo_Huracan_CHASSIS_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <LOW> MeshFile=Lambo_Huracan_CHASSIS_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.0) LODOut=(400.0)
+ <LOW> MeshFile=Lambo_Huracan_INTERIOR_LODB.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(20.0)
+ <LOW> MeshFile=Lambo_Huracan_INTERIOR_LODB.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(20.00) LODOut=(200.0)
+
+ <MED> MeshFile=Lambo_Huracan_CHASSIS_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <MED> MeshFile=Lambo_Huracan_CHASSIS_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(40.0) LODOut=(500.0)
+ <MED> MeshFile=Lambo_Huracan_INTERIOR_LODB.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <MED> MeshFile=Lambo_Huracan_INTERIOR_LODB.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.00) LODOut=(300.0)
+
+ <HIGH> MeshFile=Lambo_Huracan_CHASSIS_LODA.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(50.0)
+ <HIGH> MeshFile=Lambo_Huracan_CHASSIS_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(50.0) LODOut=(600.0)
+ <HIGH> MeshFile=Lambo_Huracan_INTERIOR_LODA.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <HIGH> MeshFile=Lambo_Huracan_INTERIOR_LODB.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(40.00) LODOut=(400.0)
+
+ <MAX> MeshFile=Lambo_Huracan_CHASSIS_LODA.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(60.0)
+ <MAX> MeshFile=Lambo_Huracan_CHASSIS_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(60.0) LODOut=(700.0)
+ <MAX> MeshFile=Lambo_Huracan_INTERIOR_LODA.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(50.0)
+ <MAX> MeshFile=Lambo_Huracan_INTERIOR_LODB.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(50.00) LODOut=(500.0)
+ 
+ <LOW> MeshFile=Lambo_Huracan_FLASHLIGHT_<6>.GMT CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0.0) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_FLASHLIGHT_<6>.GMT CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0.0) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_FLASHLIGHT_<6>.GMT CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0.0) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_FLASHLIGHT_<6>.GMT CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0.0) LODOut=(500.0)
+ 
+ <LOW> MeshFile=Lambo_Huracan_NUMBERGLOW_<8>.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_NUMBERGLOW_<8>.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_NUMBERGLOW_<8>.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_NUMBERGLOW_<8>.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0)
+ 
+ Actor=VEHICLE
+
+ Instance=COCKPIT
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_COCKPIT.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(5.0)
+ MeshFile=Lambo_Huracan_COCKPIT_MIRRORS.GMT CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0.0) LODOut=(5.0)
+ MeshFile=Lambo_Huracan_HOOD_LODA.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(5.0)
+ MeshFile=Lambo_Huracan_DDUS2.gmt CollTarget=False HATTarget=False ShadowReceiver=False LODIn=(0.0) LODOut=(5.0)
+ MeshFile=Lambo_Huracan_COCKPIT_WINDOWS.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(10.0)
+ }
+
+ Instance=WHEELEXT
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_SWHEEL_EXT.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(100.00)
+ }
+
+ Instance=WHEEL
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_SWHEEL_CPIT.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(1.00)
+ }
+
+//----------------------------------------= DRIVER =----------------------------------------\\
+
+ Instance=DRIVER
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_DRIVER_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <LOW> MeshFile=Lambo_Huracan_DRIVER_LODC.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.00) LODOut=(60.0)
+ <MED> MeshFile=Lambo_Huracan_DRIVER_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <MED> MeshFile=Lambo_Huracan_DRIVER_LODC.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.00) LODOut=(100.0)
+ <HIGH> MeshFile=Lambo_Huracan_DRIVER_LODA.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <HIGH> MeshFile=Lambo_Huracan_DRIVER_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.00) LODOut=(60.0)
+ <HIGH> MeshFile=Lambo_Huracan_DRIVER_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(60.00) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_DRIVER_LODA.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <MAX> MeshFile=Lambo_Huracan_DRIVER_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.00) LODOut=(60.0)
+ <MAX> MeshFile=Lambo_Huracan_DRIVER_LODB.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(60.00) LODOut=(200.0)
+ }
+
+ Instance=HELMET
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODB_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(20.0)
+ <LOW> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODB_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(20.00) LODOut=(100.0)
+ <MED> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODB_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(30.0)
+ <MED> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODB_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(30.00) LODOut=(200.0)
+ <HIGH> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODA_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <HIGH> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODB_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(40.00) LODOut=(300.0)
+ <MAX> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODA_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(50.0)
+ <MAX> MeshFile=Lambo_Huracan_DRIVER_HELMET_LODB_<9>.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(50.00) LODOut=(400.0)
+ }
+ 
+ Instance=SEAT
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_SEAT.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(20.0)
+ <MED> MeshFile=Lambo_Huracan_SEAT.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(40.0)
+ <HIGH> MeshFile=Lambo_Huracan_SEAT.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(60.0)
+ <MAX> MeshFile=Lambo_Huracan_SEAT.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(80.0)
+ }
+ 
+//----------------------------------------= DAMAGE =----------------------------------------\\
+
+ Instance=LowDetailEngine
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_SIMPLEENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(25.0)
+ <MED> MeshFile=Lambo_Huracan_SIMPLEENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(50.0)
+ <HIGH> MeshFile=Lambo_Huracan_SIMPLEENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_SIMPLEENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(200.0)
+ }
+
+ Instance=HighDetailEngine
+ {
+ Moveable=True Render=False
+ <LOW> MeshFile=Lambo_Huracan_DETAILEDENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(25.0)
+ <MED> MeshFile=Lambo_Huracan_DETAILEDENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(50.0)
+ <HIGH> MeshFile=Lambo_Huracan_DETAILEDENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_DETAILEDENGINE.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(200.0)
+ }
+ 
+ //----------------------------------------= EFFECTS =----------------------------------------\\
+ 
+ Instance=BACKFIRE
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_BACKFIRE.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=False
+ }
+ 
+ Projector=Headlight
+ {
+ Moveable=True Dyn=True Active=False Pos=(0.0, 0.0, -49.2) Dir=(0.0, -0.3, -0.7) Radius=(16.5) Blend=(InvDstColor, One) Texmap=GT3_LIGHTFIELD_A.TGA
+ }
+ 
+//----------------------------------------= WINGS =----------------------------------------\\
+ 
+ Instance=FWING // FRONT BUMPER
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_BUMPER_F_LODB_A.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.00) ShadowReceiver=True
+ <LOW> MeshFile=Lambo_Huracan_BUMPER_F_LODB_A.GMT CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(400.0) ShadowReceiver=True
+// <LOW> MeshFile=Lambo_Huracan_ENDULIGHTS.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(400.0) ShadowReceiver=True
+
+ <MED> MeshFile=Lambo_Huracan_BUMPER_F_LODB_A.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(40.00) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_BUMPER_F_LODB_A.GMT CollTarget=False HATTarget=False LODIn=(40.0) LODOut=(500.0) ShadowReceiver=True
+// <MED> MeshFile=Lambo_Huracan_ENDULIGHTS.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(500.0) ShadowReceiver=True
+
+ <HIGH> MeshFile=Lambo_Huracan_BUMPER_F_LODA_A.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.00) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_BUMPER_F_LODB_A.GMT CollTarget=False HATTarget=False LODIn=(50.0) LODOut=(600.0) ShadowReceiver=True
+// <HIGH> MeshFile=Lambo_Huracan_ENDULIGHTS.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(600.0) ShadowReceiver=True
+
+ <MAX> MeshFile=Lambo_Huracan_BUMPER_F_LODA_A.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(60.00) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_BUMPER_F_LODB_A.GMT CollTarget=False HATTarget=False LODIn=(60.0) LODOut=(700.0) ShadowReceiver=True
+// <MAX> MeshFile=Lambo_Huracan_ENDULIGHTS.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(700.0) ShadowReceiver=True
+ }
+ 
+ Instance=RWING 
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_WING_LODB_<4>.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.00) ShadowReceiver=True
+ <LOW> MeshFile=Lambo_Huracan_WING_LODB_<4>.GMT CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(400.0) ShadowReceiver=True
+
+ <MED> MeshFile=Lambo_Huracan_WING_LODB_<4>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.00) LODOut=(40.00) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_WING_LODB_<4>.GMT CollTarget=False HATTarget=False LODIn=(40.0) LODOut=(500.0) ShadowReceiver=True
+
+ <HIGH> MeshFile=Lambo_Huracan_WING_LODA_<4>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.00) LODOut=(50.00) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_WING_LODB_<4>.GMT CollTarget=False HATTarget=False LODIn=(50.0) LODOut=(600.0) ShadowReceiver=True
+
+ <MAX> MeshFile=Lambo_Huracan_WING_LODA_<4>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(60.00) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_WING_LODB_<4>.GMT CollTarget=False HATTarget=False LODIn=(60.0) LODOut=(700.0) ShadowReceiver=True
+ }
+ 
+//----------------------------------------= ADDITIONAL DETACHABLES =----------------------------------------\\
+
+ Instance=DEBRIS0 // HOOD
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_HOOD_LODB.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.00) ShadowReceiver=True
+ <LOW> MeshFile=Lambo_Huracan_HOOD_LODB.GMT CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(400.0) ShadowReceiver=True
+
+ <MED> MeshFile=Lambo_Huracan_HOOD_LODB.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(40.00) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_HOOD_LODB.GMT CollTarget=False HATTarget=False LODIn=(40.0) LODOut=(500.0) ShadowReceiver=True
+
+ <HIGH> MeshFile=Lambo_Huracan_HOOD_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.00) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_HOOD_LODB.GMT CollTarget=False HATTarget=False LODIn=(50.0) LODOut=(600.0) ShadowReceiver=True
+
+ <MAX> MeshFile=Lambo_Huracan_HOOD_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(60.00) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_HOOD_LODB.GMT CollTarget=False HATTarget=False LODIn=(60.0) LODOut=(700.0) ShadowReceiver=True
+ }
+ 
+ Instance=DEBRIS1 // MIRROR L
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.00) ShadowReceiver=True
+ <LOW> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(400.0) ShadowReceiver=True
+
+ <MED> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.00) LODOut=(40.00) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False LODIn=(40.0) LODOut=(500.0) ShadowReceiver=True
+
+ <HIGH> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.00) LODOut=(50.00) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False LODIn=(50.0) LODOut=(600.0) ShadowReceiver=True
+
+ <MAX> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.00) LODOut=(60.00) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False LODIn=(60.0) LODOut=(700.0) ShadowReceiver=True
+ }
+ 
+ Instance=DEBRIS2 // MIRROR R
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.00) ShadowReceiver=True
+ <LOW> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(400.0) ShadowReceiver=True
+
+ <MED> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.00) LODOut=(40.00) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(40.0) LODOut=(500.0) ShadowReceiver=True
+
+ <HIGH> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.00) LODOut=(50.00) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(50.0) LODOut=(600.0) ShadowReceiver=True
+
+ <MAX> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.00) LODOut=(60.00) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(60.0) LODOut=(700.0) ShadowReceiver=True
+ }
+ 
+// Instance=DEBRIS3 // REAR BUMPER
+// {
+// Moveable=True
+// <LOW> MeshFile=Lambo_Huracan_BUMPER_R_LODB.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.00) ShadowReceiver=True
+// <LOW> MeshFile=Lambo_Huracan_BUMPER_R_LODB.GMT CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(400.0) ShadowReceiver=True
+
+// <MED> MeshFile=Lambo_Huracan_BUMPER_R_LODB.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(40.00) ShadowReceiver=True
+// <MED> MeshFile=Lambo_Huracan_BUMPER_R_LODB.GMT CollTarget=False HATTarget=False LODIn=(40.0) LODOut=(500.0) ShadowReceiver=True
+
+// <HIGH> MeshFile=Lambo_Huracan_BUMPER_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.00) ShadowReceiver=True
+// <HIGH> MeshFile=Lambo_Huracan_BUMPER_R_LODB.GMT CollTarget=False HATTarget=False LODIn=(50.0) LODOut=(600.0) ShadowReceiver=True
+
+// <MAX> MeshFile=Lambo_Huracan_BUMPER_R_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(60.00) ShadowReceiver=True
+// <MAX> MeshFile=Lambo_Huracan_BUMPER_R_LODB.GMT CollTarget=False HATTarget=False LODIn=(60.0) LODOut=(700.0) ShadowReceiver=True
+// }
+ 
+ Instance=DEBRIS4 // LWINGLET
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_WINGLET_LF.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_WINGLET_LF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.0) LODOut=(300.0) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_WINGLET_LF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.0) LODOut=(400.0) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_WINGLET_LF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+ }
+ 
+ Instance=DEBRIS5 // RWINGLET
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_WINGLET_RF.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_WINGLET_RF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.0) LODOut=(300.0) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_WINGLET_RF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.0) LODOut=(400.0) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_WINGLET_RF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+ }
+ 
+ Instance=DEBRIS6 // SPONSORPLATE
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_REARPLATE_<5>.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(100.0) ShadowReceiver=True
+ <MED> MeshFile=Lambo_Huracan_REARPLATE_<5>.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(200.0) ShadowReceiver=True
+ <HIGH> MeshFile=Lambo_Huracan_REARPLATE_<5>.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(300.0) ShadowReceiver=True
+ <MAX> MeshFile=Lambo_Huracan_REARPLATE_<5>.GMT CollTarget=False HATTarget=False LODIn=(00.0) LODOut=(400.0) ShadowReceiver=True
+ }
+
+//----------------------------------------= WHEELS =----------------------------------------\\
+
+ Instance=LFTIRE
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_DISK_LF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <MED> MeshFile=Lambo_Huracan_DISK_LF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(80.0)
+ <HIGH> MeshFile=Lambo_Huracan_DISK_LF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_DISK_LF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ 
+ MeshFile=Lambo_Huracan_DISKGLOW_LF.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0)
+ }
+
+ Instance=LFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_CALIPER_LF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(100.0)
+ }
+
+//---------
+
+ Instance=RFTIRE
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_DISK_RF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <MED> MeshFile=Lambo_Huracan_DISK_RF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(80.0)
+ <HIGH> MeshFile=Lambo_Huracan_DISK_RF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_DISK_RF.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ 
+ MeshFile=Lambo_Huracan_DISKGLOW_RF.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0)
+ }
+
+ Instance=RFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_CALIPER_RF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(100.0)
+ }
+
+//---------
+
+ Instance=LRTIRE
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_DISK_LR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <MED> MeshFile=Lambo_Huracan_DISK_LR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(80.0)
+ <HIGH> MeshFile=Lambo_Huracan_DISK_LR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_DISK_LR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ 
+ MeshFile=Lambo_Huracan_DISKGLOW_LR.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0)
+ }
+
+ Instance=LRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_CALIPER_LR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(100.0)
+ }
+ 
+//---------
+
+ Instance=RRTIRE
+ {
+ Moveable=True
+ <LOW> MeshFile=Lambo_Huracan_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+
+ <LOW> MeshFile=Lambo_Huracan_DISK_RR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(40.0)
+ <MED> MeshFile=Lambo_Huracan_DISK_RR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(80.0)
+ <HIGH> MeshFile=Lambo_Huracan_DISK_RR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(100.0)
+ <MAX> MeshFile=Lambo_Huracan_DISK_RR.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ 
+ MeshFile=Lambo_Huracan_DISKGLOW_RR.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0)
+ }
+
+ Instance=RRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Lambo_Huracan_CALIPER_RR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(100.0)
+ }
+ 
+//----------------------------------------= LIGHTS =----------------------------------------\\
+ 
+ Instance=HlightDS // LIGHT LF
+ {
+ Moveable=True
+ MeshFile=HLGLO_DS.GMT CollTarget=False HATTarget=False ShadowReceiver=False ShadowCaster=False LODIn=(0.0) LODOut=(1000.0)
+ <LOW> MeshFile=Lambo_Huracan_LIGHTGLASS_LF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_LIGHTGLASS_LF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_LIGHTGLASS_LF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_LIGHTGLASS_LF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+ }
+
+ Instance=HlightPS // LIGHT RF
+ {
+ Moveable=True
+ MeshFile=HLGLO_PS.GMT CollTarget=False HATTarget=False ShadowReceiver=False ShadowCaster=False LODIn=(0.0) LODOut=(1000.0)
+ <LOW> MeshFile=Lambo_Huracan_LIGHTGLASS_RF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_LIGHTGLASS_RF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_LIGHTGLASS_RF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_LIGHTGLASS_RF_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+ }
+
+ Instance=BLIGHTDS // LIGHT LR
+ {
+ Moveable=True
+ MeshFile=BLGLO_DS.GMT CollTarget=False HATTarget=False ShadowReceiver=False ShadowCaster=False LODIn=(0.0) LODOut=(1000.0)
+ <LOW> MeshFile=Lambo_Huracan_LIGHTGLASS_LR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_LIGHTGLASS_LR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_LIGHTGLASS_LR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_LIGHTGLASS_LR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+ }
+
+ Instance=BLIGHTPS // LIGHT RR
+ {
+ Moveable=True
+ MeshFile=BLGLO_PS.GMT CollTarget=False HATTarget=False ShadowReceiver=False ShadowCaster=False LODIn=(0.0) LODOut=(1000.0)
+ <LOW> MeshFile=Lambo_Huracan_LIGHTGLASS_RR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(200.0)
+ <MED> MeshFile=Lambo_Huracan_LIGHTGLASS_RR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(300.0)
+ <HIGH> MeshFile=Lambo_Huracan_LIGHTGLASS_RR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(400.0)
+ <MAX> MeshFile=Lambo_Huracan_LIGHTGLASS_RR.gmt CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.00) LODOut=(500.0)
+ }
+
+ Instance=RAINLIGHT 
+ {
+ Moveable=True
+ MeshFile=TLIGHT.GMT CollTarget=False HATTarget=False ShadowReceiver=False ShadowCaster=False LODIn=(0.00) LODOut=(500.0)
+ }
+}

@@ -1,0 +1,34 @@
+DefaultLivery="IMSA16_AXRacing31.dds"
+
+HDVehicle=Corvette_DP.hdv
+Graphics=Dallara_DP.gen
+Spinner=Dallara_DP_Spinner.gen
+GenString=1C2O
+Sounds=Corvette_V8.sfx                 // Sounds=default.sfx
+Cameras=Corvette_DP.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=MVWP_HeadPhysics.ini         // Affects driver eyepoint only
+Cockpit=Dallara_DP_Cpit.ini
+Upgrades=Corvette_DP_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=31
+Team="Action Express Racing"
+PitGroup="Group10"
+Driver="Dane Cameron"
+Description="#31 - Chevrolet Corvette DP"
+Engine="Chevrolet 5L V8"
+Manufacturer="Chevrolet"
+Transmission="6-speed sequential"
+Extra="mid engine, rear wheel drive" 
+Classes="Wilson-VindisP"
+
+FullTeamName="Action Express Racing"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisP, Prototype"

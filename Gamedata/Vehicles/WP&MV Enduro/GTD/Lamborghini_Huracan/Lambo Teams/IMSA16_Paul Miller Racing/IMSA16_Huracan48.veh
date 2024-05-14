@@ -1,0 +1,36 @@
+DefaultLivery="IMSA16_Huracan48.dds"
+Extra1="Window"
+
+HDVehicle=Lambo_Huracan.hdv
+Graphics=Lambo_Huracan_Lights_A.gen
+Spinner=Lambo_Huracan_Spinner_Lights_A.gen
+Cameras=Lambo_Huracan.cam
+GenString=2C2200X0O
+Sounds=Lambo_Huracan.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=Lambo_Huracan_Cpit.ini
+Upgrades=Lambo_Huracan_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=48
+Team="Paul Miller Racing #48"
+PitGroup="Group12"
+Driver1="Bryan Sellers"
+Description="Lamborghini Huracan #48"
+Engine="Lamborghini 07L1 5.2L V10"
+Manufacturer="Lamborghini"
+Transmission="Hoer 6-speed sequential"
+Extra="mid engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Paul Miller Racing #48"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTD"

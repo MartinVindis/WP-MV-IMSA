@@ -1,0 +1,34 @@
+DefaultLivery="Oreca6.dds"
+
+HDVehicle=Oreca_03.hdv
+Graphics=Alpine_A450.gen
+Spinner=Alpine_A450_Spinner.gen
+GenString=2C2O
+Sounds=Oreca_Nissan_V6.sfx                  // Sounds=default.sfx
+Cameras=Oreca_03.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=MVWP_HeadPhysics.ini         // Affects driver eyepoint only
+Cockpit=Oreca_03_Cpit.ini
+Upgrades=Oreca_03_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=5
+Team="Oreca Team SweDEN #6"
+PitGroup="Group3"
+Driver="Oliver Webb"
+Description="Alpine A450 P2"
+Engine="Nissan VK45DE 4.5L V8"
+Manufacturer="Oreca"
+Transmission="6-speed sequential"
+Extra="mid engine, rear wheel drive" 
+Classes="Wilson-VindisP"
+
+FullTeamName="Oreca Team SweDEN #6"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisP, Prototype"

@@ -1,0 +1,20 @@
+// Genstring legend EEC Audi R8 Ultra
+
+// Select the lights directly on the cars .veh file, for example Graphics=XXXXX_Lights1.gen
+// Lights (1 - White, 2 - White Endu1,  3 - White Endu2, 4 - White Endu3, 5 - White EnduCovered, A - Yellow, B - Yellow Endu1,  C - Yellow Endu2, D - Yellow Endu3, E - Yellow EnduCovered)
+
+// 1 - Rim (1 - Silver, 2 - Black, 3 - Black Ultra - Paintable)
+
+// 23 - Tyre (A1 - Avon, B1 - Blank, C1 - Continental, C2 - Continental15, D1 - Dunlop, D2 - Dunlop13, D3 - Dunlop14, F1 - Falken, H1 - Hankook, M1 - Michelin, M2 - Michelin 13, M3 - Michelin 14, P1 - Pirelli, P1 - Pirelli 13, Y1 - Yokohama)
+
+// 4 - Body Style (1 - Ultra 2012, 2 - Ultra 2013)
+
+// 5 - Frontplate (0 - No frontplate, 1 - Frontplate Normal, 2 - Frontplate Endulights)
+
+// 6 - N24 Flash (0 - No Flash, 1 - Style1 Green-Green, 2 - Style1 Green-Blue, 3 - Style1 Blue-Blue, 4 - Style2 Green-Green, 5 - Style2 Green-Blue, 6 - Style2 Blue-Blue)
+
+// 7 - (X)
+
+// 8 - Numberglow (0 - No Glowing Number, 1 - Glowing Number using Extra5.dds)
+
+// 9 - Driver Helmet (C - Closed Visor, O - Open Visor)

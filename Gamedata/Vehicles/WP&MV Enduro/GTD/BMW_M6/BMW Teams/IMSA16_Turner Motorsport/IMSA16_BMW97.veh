@@ -1,0 +1,35 @@
+DefaultLivery="IMSA16_BMW97.dds"
+
+HDVehicle=BMW_M6.hdv
+Graphics=BMW_M6_Lights_A.gen
+Spinner=BMW_M6_Spinner_Lights_A.gen
+Cameras=BMW_M6.cam
+GenString=2C2XX0X0O
+Sounds=BMW_M6.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=BMW_M6_Cpit.ini
+Upgrades=BMW_M6_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=97
+Team="Turner Motorsport #97"
+PitGroup="Group4"
+Driver1="Michael Marsal"
+Description="BMW M6 #97"
+Engine="BMW P63 4.4L V8 Twin Turbo"
+Manufacturer="BMW Motorsport"
+Transmission="Ricardo 6-speed sequential"
+Extra="front engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Turner Motorsport #97"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTD"

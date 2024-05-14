@@ -1,0 +1,34 @@
+DefaultLivery="IMSA16_Corvette3.dds"
+
+HDVehicle=C7R_GTE.hdv
+Graphics=C7R_GTE.gen
+Spinner=C7R_GTE_Spinner.gen
+Cameras=C7R_GTE.cam
+GenString=2M3O
+Sounds=Corvette_V8.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=C7R_GTE_Cpit.ini
+Upgrades=C7R_GTE_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=03
+Team="Corvette Racing #3"
+PitGroup="Group2"
+Driver1="Antonio Garcia"
+Description="Chevrolet Corvette C7.R"
+Engine="Chevrolet LS7R 5.5L V8"
+Manufacturer="Pratt & Miller"
+Transmission="6-speed sequential"
+Extra="front engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Corvette Racing #3"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTLM"

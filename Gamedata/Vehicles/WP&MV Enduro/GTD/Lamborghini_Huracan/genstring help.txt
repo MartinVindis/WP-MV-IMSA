@@ -1,0 +1,20 @@
+// Genstring legend EEC Lamborghini Huracan
+
+// Select the lights directly on the cars .veh file, for example Graphics=XXXXX_Lights1.gen
+// Lights (1 - White Standard, 2 - White Endu, A - Yellow Standard, B - Yellow Endu)
+
+// 1 - Rim (1 - Silver, 2 - Black - Paintable)
+
+// 23 - Tyre (A1 - Avon, B1 - Blank, C1 - Continental, C2 - Continental15, D1 - Dunlop, D2 - Dunlop13, D3 - Dunlop14, F1 - Falken, H1 - Hankook, M1 - Michelin, M2 - Michelin 13, M3 - Michelin 14, P1 - Pirelli, P1 - Pirelli 13, Y1 - Yokohama)
+
+// 4 - Wingarms (1 - Silver, 2 - Black)
+
+// 5 - Rearplate (0 - No Rearplatee, 1 - Visible Rearplate)
+
+// 6 - N24 Flash (0 - No Flash, 1 - Style1 Green-Green, 2 - Style1 Green-Blue, 3 - Style1 Blue-Blue, 4 - Style2 Green-Green, 5 - Style2 Green-Blue, 6 - Style2 Blue-Blue)
+
+// 7 - (X)
+
+// 8 - Numberglow (0 - No Glowing Number, 1 - Glowing Number using Extra5.dds)
+
+// 9 - Driver Helmet (C - Closed Visor, O - Open Visor)

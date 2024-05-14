@@ -1,0 +1,35 @@
+DefaultLivery="IMSA16_Porsche22.dds"
+
+HDVehicle=Porsche_991R.hdv
+Graphics=Porsche_991R_Lights_B.gen
+Spinner=Porsche_991R_Spinner_Lights_B.gen
+Cameras=Porsche_991R.cam
+GenString=1C2XX000O
+Sounds=Porsche_991R.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=Porsche_991R_Cpit.ini
+Upgrades=Porsche_991R_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=22
+Team="Alex Job Racing #22"
+PitGroup="Group17"
+Driver1="Leh Keen"
+Description="Porsche 991 GT3 R #22"
+Engine="Porsche 4L Flat6"
+Manufacturer="Porsche"
+Transmission="Porsche 6-speed sequential"
+Extra="rear engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Alex Job Racing #22"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTD"

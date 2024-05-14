@@ -1,0 +1,20 @@
+// Genstring legend EEC Audi R8 LMS 2015
+
+// Select the lights directly on the cars .veh file, for example Graphics=XXXXX_Lights1.gen
+// Lights (1 - White, 2 - White Endu,  A - Yellow, B - Yellow Endu)
+
+// 1 - Driver Helmet
+
+// 2 - Rim (1 - Silver, 2 - Black - Paintable)
+
+// 3 - Tyre (0 - Avon, 1 - Dunlop, 2 - Falken, 3 - Hankook, 4 - Michelin, 5 - Pirelli, 6 - Toyo, 7 - Yokohama, 8 - Blank, 9 - Michelin 13, A - BF Goodrich, B - Bridgestone, C - Continental, D - Firestone, E - Goodyear, F - Uniroyal, G - Dunlop 13, H - Dunlop 14)
+
+// 4 - (X)
+
+// 5 - Rearplate (0 - No Rearplatee, 1 - Visible Rearplate)
+
+// 6 - N24 Flash (0 - No Flash, 1 - Style1 Green-Green, 2 - Style1 Green-Blue, 3 - Style1 Blue-Blue, 4 - Style2 Green-Green, 5 - Style2 Green-Blue, 6 - Style2 Blue-Blue)
+
+// 7 - (X)
+
+// 8 - Numberglow (0 - No Glowing Number, 1 - Glowing Number using Extra5.dds)

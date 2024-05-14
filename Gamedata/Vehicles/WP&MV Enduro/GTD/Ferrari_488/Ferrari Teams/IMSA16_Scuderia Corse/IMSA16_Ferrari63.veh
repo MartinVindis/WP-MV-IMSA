@@ -1,0 +1,35 @@
+DefaultLivery="IMSA16_Ferrari63.DDS"
+
+HDVehicle=Ferrari_488.hdv
+Graphics=Ferrari_488_Lights_A.gen
+Spinner=Ferrari_488_Spinner_Lights_A.gen
+Cameras=Ferrari_488.cam
+GenString=2C2XX0X0O
+Sounds=Ferrari_488.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=Ferrari_488_Cpit.ini
+Upgrades=Ferrari_488_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=63
+Team="Scuderia Corsa #63"
+PitGroup="Group8"
+Driver1="Christina Nielsen"
+Description="Ferrari 488 #63"
+Engine="Ferrari 4L V8 Twin Turbo"
+Manufacturer="Ferrari"
+Transmission="Hewland 6-speed sequential"
+Extra="mid engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Scuderia Corsa #63"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTD"

@@ -1,0 +1,271 @@
+
+// ENGINE SOUNDS (INSIDE)
+
+VS_INSIDE_POWER_ENGINE_1=1.40,EEC_GT3\Cadillac_V6\Cadillac_V6_in_onidle.wav
+VS_INSIDE_POWER_ENGINE_2=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_in_onverylow.wav
+VS_INSIDE_POWER_ENGINE_3=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_in_onlow.wav
+VS_INSIDE_POWER_ENGINE_4=1.60,EEC_GT3\Cadillac_V6\Cadillac_V6_in_onmid.wav
+VS_INSIDE_POWER_ENGINE_5=1.70,EEC_GT3\Cadillac_V6\Cadillac_V6_in_onhigh.wav
+VS_INSIDE_POWER_ENGINE_6=1.70,EEC_GT3\Cadillac_V6\Cadillac_V6_in_onlimiter.wav
+
+VS_INSIDE_COAST_ENGINE_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_in_idle.wav
+VS_INSIDE_COAST_ENGINE_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_in_offidle_1.wav
+VS_INSIDE_COAST_ENGINE_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_in_offidle_2.wav
+VS_INSIDE_COAST_ENGINE_4=1.40,EEC_GT3\Cadillac_V6\Cadillac_V6_in_offlow.wav
+VS_INSIDE_COAST_ENGINE_5=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_in_offmid.wav
+VS_INSIDE_COAST_ENGINE_6=1.60,EEC_GT3\Cadillac_V6\Cadillac_V6_in_offhigh.wav
+VS_INSIDE_COAST_ENGINE_7=1.60,EEC_GT3\Cadillac_V6\Cadillac_V6_in_offlimiter.wav
+
+//VS_INSIDE_ENGINE_STARTER=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_in_startup.wav
+VS_INSIDE_ENGINE_STARTING=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_in_startup.wav
+
+
+// ENGINE SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_POWER_ENGINE_1=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_onidle.wav
+VS_OUTSIDE_POWER_ENGINE_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_onverylow.wav
+VS_OUTSIDE_POWER_ENGINE_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_onlow.wav
+VS_OUTSIDE_POWER_ENGINE_4=1.40,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_onmid.wav
+VS_OUTSIDE_POWER_ENGINE_5=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_onhigh.wav
+VS_OUTSIDE_POWER_ENGINE_6=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_onlimiter.wav
+
+VS_OUTSIDE_COAST_ENGINE_1=1.10,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_idle.wav
+VS_OUTSIDE_COAST_ENGINE_2=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_offverylow.wav
+VS_OUTSIDE_COAST_ENGINE_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_offlow.wav
+VS_OUTSIDE_COAST_ENGINE_4=1.40,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_offmid.wav
+VS_OUTSIDE_COAST_ENGINE_5=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_offhigh.wav
+VS_OUTSIDE_COAST_ENGINE_6=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_offlimiter.wav
+
+
+//VS_OUTSIDE_ENGINE_STARTER=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_startup.wav
+VS_OUTSIDE_ENGINE_STARTING=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_ex_startup.wav
+
+
+// BACKFIRE & SHIFT SOUNDS (INSIDE)
+
+VS_INSIDE_SHIFT_UP_1=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_up.wav
+VS_INSIDE_SHIFT_UP_2=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_up_2.wav
+VS_INSIDE_SHIFT_UP_3=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_up_2.wav
+VS_INSIDE_SHIFT_DOWN_1=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_down.wav
+VS_INSIDE_SHIFT_DOWN_2=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_down_4.wav
+VS_INSIDE_SHIFT_DOWN_3=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_down_4.wav
+
+VS_INSIDE_BACKFIRE_1=2.00, EEC_Secondary\backfire_9.wav
+VS_INSIDE_BACKFIRE_2=2.00, EEC_Secondary\backfire_5.wav
+VS_INSIDE_BACKFIRE_3=2.00, EEC_Secondary\backfire_3.wav
+
+// BACKFIRE & SHIFT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SHIFT_UP_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_up_1.wav
+VS_OUTSIDE_SHIFT_UP_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_up_2.wav
+VS_OUTSIDE_SHIFT_UP_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_up_3.wav
+VS_OUTSIDE_SHIFT_DOWN_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_1
+VS_OUTSIDE_SHIFT_DOWN_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_2
+VS_OUTSIDE_SHIFT_DOWN_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_3
+
+VS_OUTSIDE_BACKFIRE_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_1
+VS_OUTSIDE_BACKFIRE_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_2
+VS_OUTSIDE_BACKFIRE_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_3
+
+// ROAD SURFACE SOUNDS (INSIDE)
+
+VS_INSIDE_ROADNOISE_DRY=1.0,TireSurface\2\internal_road.wav
+VS_INSIDE_ROADNOISE_WET=0.5,StockCarBrasil\road_roll_int.wav
+VS_INSIDE_ROADNOISE_GRASS=2.3, TireSurface\gravel_roll_closed_cockpit_2_3.wav
+VS_INSIDE_ROADNOISE_DIRT=2.6, TireSurface\gravel_roll_closed_cockpit_2_3.wav
+VS_INSIDE_ROADNOISE_GRAVEL=2.9, TireSurface\gravel_roll_closed_cockpit_2_3.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=13.0, TireSurface\rumble_closed_racecar2.wav
+
+// ROAD SURFACE SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_ROADNOISE_DRY=1.50,TireSurface\2\external_road_2.wav
+VS_OUTSIDE_ROADNOISE_WET=StockCarBrasil\road_roll_ext_wet.wav
+VS_OUTSIDE_ROADNOISE_GRASS=1.0,TireSurface\gravel_roll_open_cockpit_2_2.wav
+VS_OUTSIDE_ROADNOISE_DIRT=1.0,TireSurface\gravel_roll_open_cockpit_2_2.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=1.0,TireSurface\gravel_roll_open_cockpit_2_2.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=6.0,TireSurface\2\rumble_external.wav
+
+// SKID SOUNDS (INSIDE)
+
+VS_INSIDE_TIRE_SCRUB=0.8,StockCarBrasil\road_scrub.wav
+VS_INSIDE_SKID_DRY=1.2,StockCarBrasil\road_skid.wav
+VS_INSIDE_SKID_WET=1.4,StockCarBrasil\road_skid.wav
+VS_INSIDE_SKID_GRASS=4.5, TireSurface\grass_trap_closed_cockpit.wav
+VS_INSIDE_SKID_DIRT=4.5, TireSurface\dirt_trap_closed_cockpit.wav
+VS_INSIDE_SKID_GRAVEL=4.5, TireSurface\gravel_trap_closed_cockpit.wav
+
+// SKID SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_TIRE_SCRUB=1.9,StockCarBrasil\road_scrub.wav
+VS_OUTSIDE_SKID_DRY=1.5,StockCarBrasil\road_skid.wav
+VS_OUTSIDE_SKID_WET=1.5,StockCarBrasil\road_skid.wav
+VS_OUTSIDE_SKID_GRASS=TireSurface\ex_grass_trap.wav
+VS_OUTSIDE_SKID_DIRT=TireSurface\ex_dirt_trap.wav
+VS_OUTSIDE_SKID_GRAVEL=TireSurface\ex_gravel_trap.wav
+
+// CONTACT SOUNDS (INSIDE)
+
+VS_INSIDE_SCRAPING=4.5, TireSurface\scrape.wav
+
+VS_INSIDE_HIT_WALL_1=CRASH\impact_wall_tap.wav
+VS_INSIDE_HIT_WALL_2=CRASH\impact_wall_verylight2.wav
+VS_INSIDE_HIT_WALL_3=CRASH\impact_wall_verylight.wav
+VS_INSIDE_HIT_WALL_4=CRASH\impact_wall_medium2.wav
+VS_INSIDE_HIT_WALL_5=CRASH\impact_wall_heavy3.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=CRASH\impact_car_tap.wav
+VS_INSIDE_HIT_OTHERCAR_2=CRASH\impact_car_verylight.wav
+VS_INSIDE_HIT_OTHERCAR_3=CRASH\impact_car_light.wav
+VS_INSIDE_HIT_OTHERCAR_4=CRASH\impact_car_medium.wav
+VS_INSIDE_HIT_OTHERCAR_5=CRASH\impact_car_heavy.wav
+
+VS_INSIDE_HIT_CONE=CRASH\cone_hit.wav
+
+// CONTACT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SCRAPING=TireSurface\ex_scrape.wav
+
+VS_OUTSIDE_HIT_WALL_1=CRASH\ex_impact_wall_tap.wav
+VS_OUTSIDE_HIT_WALL_2=CRASH\ex_impact_wall_verylight2.wav
+VS_OUTSIDE_HIT_WALL_3=CRASH\ex_impact_wall_light.wav
+VS_OUTSIDE_HIT_WALL_4=CRASH\ex_impact_wall_medium2.wav
+VS_OUTSIDE_HIT_WALL_5=CRASH\ex_impact_wall_heavy3.wav
+
+VS_OUTSIDE_HIT_OTHERCAR_1=CRASH\ex_impact_car_tap.wav
+VS_OUTSIDE_HIT_OTHERCAR_2=CRASH\ex_impact_car_verylight.wav
+VS_OUTSIDE_HIT_OTHERCAR_3=CRASH\ex_impact_car_light.wav
+VS_OUTSIDE_HIT_OTHERCAR_4=CRASH\ex_impact_car_medium.wav
+VS_OUTSIDE_HIT_OTHERCAR_5=CRASH\ex_impact_car_heavy.wav
+
+VS_OUTSIDE_HIT_CONE=CRASH\ex_cone_hit2.wav
+
+// AMBIENT SOUNDS (INSIDE)
+
+VS_INSIDE_SPEED_LIMITER_TOGGLE=EEC_Secondary\click_1_evo.wav
+VS_INSIDE_LAUNCH_CONTROL_TOGGLE=secondary\launch.wav
+VS_INSIDE_TRACTION_CONTROL=0.50, EEC_Secondary\traction_control_1.wav
+VS_INSIDE_WIND_NOISE=1.7, StockCarBrasil\Int\wind_buffeting3.wav //wind_int.wav
+VS_INSIDE_ON_FIRE=StockCarBrasil\fire.wav
+
+// AMBIENT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SPEED_LIMITER_TOGGLE=EEC_Secondary\limitertoggle_ext.wav
+VS_OUTSIDE_LAUNCH_CONTROL_TOGGLE=secondary\launch.wav
+VS_OUTSIDE_TRACTION_CONTROL=1.50, EEC_Secondary\traction_control_ext_1.wav
+VS_OUTSIDE_WIND_NOISE=StockCarBrasil\wind_ext.wav
+VS_OUTSIDE_ON_FIRE=StockCarBrasil\fire.wav
+
+
+// ATTENUTATION
+EngineAttenInside=(1.0, 0, 1.0, 0.022) //(<range>,<oldShape>,<ambient>,<expShape>)
+EngineAttenOutside=(1.0, 0, 1.0, 0.011)
+
+ShiftAttenInside=(1.0, 0, 0.9, 0.022)
+ShiftAttenOutside=(1.0, 0, 0.9, 0.011)
+
+OtherAttenInside=(1.0, 0, 0.5, 0.022)
+OtherAttenOutside=(1.0, 0, 0.5, 0.011)
+
+
+// ENGINE VOLUME MIX
+playerEngineVolumeMinimum=1.0
+playerEngineVolumeThrottleFraction=0.0
+playerEngineVolumeRevFraction=0.0
+
+non-playerEngineVolumeMinimum=0.3
+non-playerEngineVolumeThrottleFraction=0.3
+non-playerEngineVolumeRevFraction=0.4
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.1,0.9)   // power sound starts to blend in at 10% throttle, coast sound blends out at 90%
+EngineLoadBlendOutside=(0.1,0.9)
+
+
+// ENGINE REV-SAMPLE MIX
+// RPMs need to overlap properly from one sample to the next (maximum of two playing at once).
+// The first minimum RPM should be above zero but low enough to hear an engine stall.
+
+// power inside
+EngRPMPowerInside=(0,     1,  3100,  2500)
+EngRPMPowerInside=(1,  2200,  4200,  4000)
+EngRPMPowerInside=(2,  3400,  5300,  5000)
+EngRPMPowerInside=(3,  4550,  6420,  6000)
+EngRPMPowerInside=(4,  5700,  7550,  6800)
+EngRPMPowerInside=(5,  7450, 10000,  6850)
+
+// coast inside
+EngRPMCoastInside=(0,     1,  1360,  1000)
+EngRPMCoastInside=(1,  1060,  2400,  2000)
+EngRPMCoastInside=(2,  1700,  3500,  2000)
+EngRPMCoastInside=(3,  2650,  4750,  4000)
+EngRPMCoastInside=(4,  3750,  6000,  5000)
+EngRPMCoastInside=(5,  5100,  7550,  6800)
+EngRPMCoastInside=(6,  7400, 10000,  6400)
+
+// power outside
+EngRPMPowerOutside=(0,     1,  3400,  3444)
+EngRPMPowerOutside=(1,  2700,  4700,  4908)
+EngRPMPowerOutside=(2,  4000,  5700,  6708)
+EngRPMPowerOutside=(3,  5000,  6700,  7392)
+EngRPMPowerOutside=(4,  5000,  7550,  7944)
+EngRPMPowerOutside=(5,  7450, 10000,  6850)
+
+// coast outside
+EngRPMCoastOutside=(0,     1,  2000,  1000)
+EngRPMCoastOutside=(1,  1200,  4200,  4608)
+EngRPMCoastOutside=(2,  3000,  5400,  5890)
+EngRPMCoastOutside=(3,  4650,  6500,  6780)
+EngRPMCoastOutside=(4,  5800,  7550,  7944)
+EngRPMCoastOutside=(5,  7400, 10000,  6400)
+
+//------------------
+// TRANNY-SAMPLE MIX
+//------------------
+
+VS_INSIDE_COAST_TRANNY_1=1.60,EEC_GT3\Cadillac_V6\Tranny_offlow_4000RPM.wav
+VS_INSIDE_COAST_TRANNY_2=1.40,EEC_GT3\Cadillac_V6\Tranny_offhigh_8000RPM.wav
+VS_INSIDE_POWER_TRANNY_1=1.60,EEC_GT3\Cadillac_V6\Tranny_onlow_4000RPM.wav
+VS_INSIDE_POWER_TRANNY_2=1.40,EEC_GT3\Cadillac_V6\Tranny_onhigh_8000RPM.wav
+
+VS_OUTSIDE_COAST_TRANNY_1=EEC_GT3\Cadillac_V6\Tranny4000_ex.wav
+VS_OUTSIDE_COAST_TRANNY_2=EEC_GT3\Cadillac_V6\Tranny6000_ex.wav
+VS_OUTSIDE_POWER_TRANNY_1=EEC_GT3\Cadillac_V6\Tranny4000_ex.wav
+VS_OUTSIDE_POWER_TRANNY_2=EEC_GT3\Cadillac_V6\Tranny6000_ex.wav
+
+
+TrannyInitialRampRPM=1000.0
+TrannyCoastBlendRPMInside=(3000.0, 5000)
+TrannyCoast1RPMTorqueInside=(4000, 80.0)
+TrannyCoast2RPMTorqueInside=(8000, 80.0)
+TrannyPowerBlendRPMInside=(3000.0, 5000)
+TrannyPower1RPMTorqueInside=(4000, 80.0)
+TrannyPower2RPMTorqueInside=(8000, 80.0)
+
+TrannyCoastBlendRPMOutside=(3000.0, 5000)
+TrannyCoast1RPMTorqueOutside=(4000, 80.0)
+TrannyCoast2RPMTorqueOutside=(6000, 80.0)
+TrannyPowerBlendRPMOutside=(3000.0, 5000)
+TrannyPower1RPMTorqueOutside=(4000, 80.0)
+TrannyPower2RPMTorqueOutside=(6000, 80.0)
+
+// BRAKE HISS 
+ 
+VS_INSIDE_BRAKES_LOW=2.00, EEC_Secondary\brakes_low_in.wav // low-speed
+VS_INSIDE_BRAKES_HIGH=5.00, EEC_Secondary\brakes_high_in.wav // high-speed 
+VS_OUTSIDE_BRAKES_LOW=2.00, EEC_Secondary\brakes_low_ex.wav // low-speed 
+VS_OUTSIDE_BRAKES_HIGH=2.50, EEC_Secondary\brakes_high_ex.wav // high-speed
+ 
+// Note: all speeds are in meters/sec: 50.0 m/s = 112 mph = 180 kph 
+//
+// Lower BrakePressure numbers will cause the volume to ramp up faster with 
+// less applied pressure, and will be more steady at higher pressures.
+// Higher BrakePressure numbers will tend to make the volume more dependent
+// on applied pressure.
+//
+// Temperature effects on brake hiss volume are not implemented yet. 
+ 
+BrakeRampSpeed=3.00 // volume ramps up to this speed
+BrakeBlendSpeeds=(8.00, 23.0) // blends between low- and high-speed brake hiss
+BrakeFadeSpeeds=(23.00, 42.0) // fades out high-speed brake hiss between these speeds
+BrakePressure=0.20 // defines how brake pressure affects brake hiss volume

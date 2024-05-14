@@ -1,0 +1,7 @@
+// Genstring legend 
+
+// 1 - Rim (1 - OZ Silver, 2 - OZ Black - Paintable)
+
+// 23 - Tyre (C2 - Continental, D3 - Dunlop, M3 - Michelin)
+
+Different Chassis for Alpine or Oreca isnt a genstring option, at the .veh file you have to link the right .gen files! Alpine_A450.gen/Alpine_A450_Spinner.gen or Oreca_03.gen/Oreca_03_Spinner.gen

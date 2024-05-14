@@ -1,0 +1,285 @@
+// ENGINE SOUNDS (INSIDE)
+
+VS_INSIDE_POWER_ENGINE_1=1.40,EEC_GTE\FordGT_V6\Ford_V6_in_onidle.wav
+VS_INSIDE_POWER_ENGINE_2=1.50,EEC_GTE\FordGT_V6\Ford_V6_in_onverylow.wav
+VS_INSIDE_POWER_ENGINE_3=1.50,EEC_GTE\FordGT_V6\Ford_V6_in_onlow.wav
+VS_INSIDE_POWER_ENGINE_4=1.60,EEC_GTE\FordGT_V6\Ford_V6_in_onmid.wav
+VS_INSIDE_POWER_ENGINE_5=1.70,EEC_GTE\FordGT_V6\Ford_V6_in_onhigh.wav
+VS_INSIDE_POWER_ENGINE_6=1.70,EEC_GTE\FordGT_V6\Ford_V6_in_onlimiter.wav
+
+VS_INSIDE_COAST_ENGINE_1=1.30,EEC_GTE\FordGT_V6\Ford_V6_in_idle.wav
+VS_INSIDE_COAST_ENGINE_2=1.30,EEC_GTE\FordGT_V6\Ford_V6_in_offidle_1.wav
+VS_INSIDE_COAST_ENGINE_3=1.30,EEC_GTE\FordGT_V6\Ford_V6_in_offidle_2.wav
+VS_INSIDE_COAST_ENGINE_4=1.40,EEC_GTE\FordGT_V6\Ford_V6_in_offlow.wav
+VS_INSIDE_COAST_ENGINE_5=1.50,EEC_GTE\FordGT_V6\Ford_V6_in_offmid.wav
+VS_INSIDE_COAST_ENGINE_6=1.60,EEC_GTE\FordGT_V6\Ford_V6_in_offhigh.wav
+VS_INSIDE_COAST_ENGINE_7=1.60,EEC_GTE\FordGT_V6\Ford_V6_in_offlimiter.wav
+
+//VS_INSIDE_ENGINE_STARTER=1.50,EEC_GTE\FordGT_V6\Ford_V6_in_startup.wav
+VS_INSIDE_ENGINE_STARTING=1.50,EEC_GTE\FordGT_V6\Ford_V6_in_startup.wav
+
+// ENGINE SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_POWER_ENGINE_1=1.20,EEC_GTE\FordGT_V6\Ford_V6_ex_onidle.wav
+VS_OUTSIDE_POWER_ENGINE_2=1.30,EEC_GTE\FordGT_V6\Ford_V6_ex_onverylow.wav
+VS_OUTSIDE_POWER_ENGINE_3=1.30,EEC_GTE\FordGT_V6\Ford_V6_ex_onlow.wav
+VS_OUTSIDE_POWER_ENGINE_4=1.40,EEC_GTE\FordGT_V6\Ford_V6_ex_onmid.wav
+VS_OUTSIDE_POWER_ENGINE_5=1.50,EEC_GTE\FordGT_V6\Ford_V6_ex_onhigh.wav
+VS_OUTSIDE_POWER_ENGINE_6=1.50,EEC_GTE\FordGT_V6\Ford_V6_ex_onlimiter.wav
+
+VS_OUTSIDE_COAST_ENGINE_1=1.10,EEC_GTE\FordGT_V6\Ford_V6_ex_idle.wav
+VS_OUTSIDE_COAST_ENGINE_2=1.20,EEC_GTE\FordGT_V6\Ford_V6_ex_offverylow.wav
+VS_OUTSIDE_COAST_ENGINE_3=1.30,EEC_GTE\FordGT_V6\Ford_V6_ex_offlow.wav
+VS_OUTSIDE_COAST_ENGINE_4=1.40,EEC_GTE\FordGT_V6\Ford_V6_ex_offmid.wav
+VS_OUTSIDE_COAST_ENGINE_5=1.50,EEC_GTE\FordGT_V6\Ford_V6_ex_offhigh.wav
+VS_OUTSIDE_COAST_ENGINE_6=1.50,EEC_GTE\FordGT_V6\Ford_V6_ex_offlimiter.wav
+
+//VS_OUTSIDE_ENGINE_STARTER=1.30,EEC_GTE\FordGT_V6\Ford_V6_ex_startup.wav
+VS_OUTSIDE_ENGINE_STARTING=1.50,EEC_GTE\FordGT_V6\Ford_V6_ex_startup.wav
+
+// BACKFIRE & SHIFT SOUNDS (INSIDE)
+
+VS_INSIDE_SHIFT_UP_1=1.50,EEC_GTE\FordGT_V6\Ford_V6_gear_change_up.wav
+VS_INSIDE_SHIFT_UP_2=1.50,EEC_GTE\FordGT_V6\Ford_V6_gear_change_up_2.wav
+VS_INSIDE_SHIFT_UP_3=1.50,EEC_GTE\FordGT_V6\Ford_V6_gear_change_up_2.wav
+VS_INSIDE_SHIFT_DOWN_1=1.20,EEC_GTE\FordGT_V6\Ford_V6_gear_change_down.wav
+VS_INSIDE_SHIFT_DOWN_2=1,EEC_GTE\FordGT_V6\Ford_V6_gear_change_down_4.wav
+VS_INSIDE_SHIFT_DOWN_3=1,EEC_GTE\FordGT_V6\Ford_V6_gear_change_down_4.wav
+
+VS_INSIDE_BACKFIRE_1=null
+VS_INSIDE_BACKFIRE_2=2, EEC_GTE\FordGT_V6\Ford_V6_int_backfire_1.wav
+VS_INSIDE_BACKFIRE_3=null
+
+// BACKFIRE & SHIFT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SHIFT_UP_1=0.54, EEC_GTE\FordGT_V6\Ford_V6_ext_shift_up_1.wav
+VS_OUTSIDE_SHIFT_UP_2=0.54, EEC_GTE\FordGT_V6\Ford_V6_ext_shift_up_2.wav
+VS_OUTSIDE_SHIFT_UP_3=0.54, EEC_GTE\FordGT_V6\Ford_V6_ext_shift_up_2.wav
+VS_OUTSIDE_SHIFT_DOWN_1=1.53, EEC_GTE\FordGT_V6\Ford_V6_ext_downshift_1.wav
+VS_OUTSIDE_SHIFT_DOWN_2=1.53, EEC_GTE\FordGT_V6\Ford_V6_ext_downshift_2.wav
+VS_OUTSIDE_SHIFT_DOWN_3=1.53, EEC_GTE\FordGT_V6\Ford_V6_ext_downshift_3.wav
+
+VS_OUTSIDE_BACKFIRE_1=null
+VS_OUTSIDE_BACKFIRE_2=2.0, EEEC_GTE\FordGT_V6\Ford_V6_ext_backfire_1.wav
+VS_OUTSIDE_BACKFIRE_3=null
+
+// ROAD SURFACE SOUNDS (INSIDE)
+VS_INSIDE_WIND_NOISE=0.5, TireSurface\wind_int_new.wav
+VS_INSIDE_ROADNOISE_DRY=0.8, TireSurface\new_effects\roadnoise_in.wav 
+VS_INSIDE_ROADNOISE_GRASS=1.9, TireSurface\new_effects\dirt_roll_closed.wav //grass_roll.wav
+VS_INSIDE_ROADNOISE_DIRT=2.1, TireSurface\new_effects\dirt_roll_closed.wav
+VS_INSIDE_ROADNOISE_GRAVEL=2.2, TireSurface\new_effects\dirt_roll_closed.wav //gravel_roll_closed_cockpit.wav
+
+// ROAD SURFACE SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_ROADNOISE_DRY=0.20, TireSurface\new_effects\roadnoise_ex.wav
+VS_OUTSIDE_ROADNOISE_WET= StockCarBrasil\road_roll_ext_wet.wav
+VS_OUTSIDE_ROADNOISE_GRASS=1.0, TireSurface\new_effects\dirt_roll_ex.wav
+VS_OUTSIDE_ROADNOISE_DIRT=1.0, TireSurface\new_effects\dirt_roll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=1.0,TireSurface\new_effects\dirt_roll_ex.wav
+
+// RUMBLESTRIP SOUNDS (INSIDE)
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=13.0, TireSurface\rumble_closed_racecar2.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPGROOVED=13.0, TireSurface\new_effects\rumblestrip_grooved_closed.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPFLAT=13.0, TireSurface\new_effects\rumblestrip_flat_closed.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPCRETE=13.0, TireSurface\new_effects\rumblestrip_grasscrete_closed.wav
+
+// RUMBLESTRIP SOUNDS (OUTSIDE)
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=1.0, TireSurface\new_effects\rumblestrip_external_4.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPGROOVED=1.0, TireSurface\new_effects\rumblestrip_grooved_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPFLAT=1.0, TireSurface\new_effects\rumblestrip_flat_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPCRETE=1.0, TireSurface\new_effects\rumblestrip_grasscrete_ex.wav
+
+// NEW EFFECTS (INSIDE)
+
+VS_INSIDE_BLOWOUT=10.0, TireSurface\engine_blow_2.wav
+VS_INSIDE_DIRT_RESIDUE=1.8, TireSurface\new_effects\dirt_residue_closed.wav
+VS_INSIDE_SCRAPING_ROAD=0.7, TireSurface\new_effects\scrape_road_911_2_metal.wav
+VS_INSIDE_BUMPSTOP=0.6, TireSurface\new_effects\opala_bumpstop_2.wav
+VS_INSIDE_GRINDING_GEARS=1.0, TireSurface\grind_tranny_in_short.wav
+
+// NEW EFFECTS (OUTSIDE)
+
+VS_OUTSIDE_BLOWOUT=1.0, TireSurface\engine_blow_2.wav
+VS_OUTSIDE_DIRT_RESIDUE=0.8, TireSurface\new_effects\dirt_residue_ex.wav
+VS_OUTSIDE_SCRAPING_ROAD=1.0, TireSurface\new_effects\suspension_ex.wav
+VS_OUTSIDE_BUMPSTOP=0.6, TireSurface\new_effects\bumpstop_ex.wav
+VS_OUTSIDE_GRINDING_GEARS= TireSurface\new_effects\grind_tranny_ex_short.wav
+
+// SKID SOUNDS (INSIDE)
+VS_INSIDE_TIRE_SCRUB=1.0, TireSurface\ROAD_SCRUB_CLOSED_1.wav
+VS_INSIDE_SKID_DRY=1.0, TireSurface\ROAD_SKID_CLOSED_1.wav
+VS_INSIDE_SKID_GRASS=4.5, TireSurface\grass_trap_closed_cockpit.wav
+VS_INSIDE_SKID_DIRT=3.5, TireSurface\dirt_trap_closed_cockpit.wav
+VS_INSIDE_SKID_GRAVEL=3.5, TireSurface\gravel_trap_closed_cockpit.wav
+
+// SKID SOUNDS (OUTSIDE)
+VS_OUTSIDE_TIRE_SCRUB=0.5, TireSurface\ROAD_SCRUB_CLOSED_1.wav
+VS_OUTSIDE_SKID_DRY=0.5, TireSurface\ROAD_SKID_CLOSED_1.wav
+VS_OUTSIDE_SKID_GRASS=0.5, TireSurface\ex_grass_trap.wav
+VS_OUTSIDE_SKID_DIRT=0.5, TireSurface\ex_dirt_trap.wav
+VS_OUTSIDE_SKID_GRAVEL=0.5, TireSurface\ex_gravel_trap.wav
+
+// CONTACT SOUNDS (INSIDE)
+
+VS_INSIDE_SCRAPING=4.5, TireSurface\scrape.wav
+
+VS_INSIDE_HIT_WALL_1=CRASH\impact_wall_tap.wav
+VS_INSIDE_HIT_WALL_2=CRASH\impact_wall_verylight2.wav
+VS_INSIDE_HIT_WALL_3=CRASH\impact_wall_verylight.wav
+VS_INSIDE_HIT_WALL_4=CRASH\impact_wall_medium2.wav
+VS_INSIDE_HIT_WALL_5=CRASH\impact_wall_heavy3.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=CRASH\impact_car_tap.wav
+VS_INSIDE_HIT_OTHERCAR_2=CRASH\impact_car_verylight.wav
+VS_INSIDE_HIT_OTHERCAR_3=CRASH\impact_car_light.wav
+VS_INSIDE_HIT_OTHERCAR_4=CRASH\impact_car_medium.wav
+VS_INSIDE_HIT_OTHERCAR_5=CRASH\impact_car_heavy.wav
+
+VS_INSIDE_HIT_CONE=CRASH\cone_hit.wav
+
+// CONTACT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SCRAPING=TireSurface\ex_scrape.wav
+
+VS_OUTSIDE_HIT_WALL_1=CRASH\ex_impact_wall_tap.wav
+VS_OUTSIDE_HIT_WALL_2=CRASH\ex_impact_wall_verylight2.wav
+VS_OUTSIDE_HIT_WALL_3=CRASH\ex_impact_wall_light.wav
+VS_OUTSIDE_HIT_WALL_4=CRASH\ex_impact_wall_medium2.wav
+VS_OUTSIDE_HIT_WALL_5=CRASH\ex_impact_wall_heavy3.wav
+
+VS_OUTSIDE_HIT_OTHERCAR_1=CRASH\ex_impact_car_tap.wav
+VS_OUTSIDE_HIT_OTHERCAR_2=CRASH\ex_impact_car_verylight.wav
+VS_OUTSIDE_HIT_OTHERCAR_3=CRASH\ex_impact_car_light.wav
+VS_OUTSIDE_HIT_OTHERCAR_4=CRASH\ex_impact_car_medium.wav
+VS_OUTSIDE_HIT_OTHERCAR_5=CRASH\ex_impact_car_heavy.wav
+
+VS_OUTSIDE_HIT_CONE=CRASH\ex_cone_hit2.wav
+
+// AMBIENT SOUNDS (INSIDE)
+
+VS_INSIDE_SPEED_LIMITER_TOGGLE=StockCarBrasil\limitertoggle.wav
+VS_INSIDE_TRACTION_CONTROL=StockCarBrasil\pitlimiter.wav
+VS_INSIDE_ON_FIRE=StockCarBrasil\fire.wav
+
+// AMBIENT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SPEED_LIMITER_TOGGLE=
+VS_OUTSIDE_WIND_NOISE=
+VS_OUTSIDE_TRACTION_CONTROL=StockCarBrasil\pitlimiter.wav
+VS_OUTSIDE_ON_FIRE=StockCarBrasil\fire.wav
+
+//-------------------------
+// ATTENUATION
+//-------------------------
+
+EngineRange=120.0
+EngineShape=0.95
+EngineAmbient=1.05
+
+ShiftRange=120.0
+ShiftShape=1.00
+ShiftAmbient=1.00
+
+OtherRange=70.0
+OtherShape=0.70
+OtherAmbient=0.70
+
+// ENGINE VOLUME MIX
+playerEngineVolumeMinimum=1.0
+playerEngineVolumeThrottleFraction=0.0
+playerEngineVolumeRevFraction=0.0
+
+non-playerEngineVolumeMinimum=0.3
+non-playerEngineVolumeThrottleFraction=0.3
+non-playerEngineVolumeRevFraction=0.4
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.1,0.9)   // power sound starts to blend in at 10% throttle, coast sound blends out at 90%
+EngineLoadBlendOutside=(0.1,0.9)
+
+// ENGINE REV-SAMPLE MIX
+// RPMs need to overlap properly from one sample to the next (maximum of two playing at once).
+// The first minimum RPM should be above zero but low enough to hear an engine stall.
+
+// power inside
+EngRPMPowerInside=(0,     1,  3100,  2500)
+EngRPMPowerInside=(1,  2200,  4200,  4000)
+EngRPMPowerInside=(2,  3400,  5300,  5000)
+EngRPMPowerInside=(3,  4550,  6420,  6000)
+EngRPMPowerInside=(4,  5700,  7550,  6800)
+EngRPMPowerInside=(5,  7450, 10000,  6850)
+
+// coast inside
+EngRPMCoastInside=(0,     1,  1360,  1000)
+EngRPMCoastInside=(1,  1060,  2400,  2000)
+EngRPMCoastInside=(2,  1700,  3500,  2000)
+EngRPMCoastInside=(3,  2650,  4750,  4000)
+EngRPMCoastInside=(4,  3750,  6000,  5000)
+EngRPMCoastInside=(5,  5100,  7550,  6800)
+EngRPMCoastInside=(6,  7400, 10000,  6400)
+
+// power outside
+EngRPMPowerOutside=(0,     1,  3400,  3444)
+EngRPMPowerOutside=(1,  2700,  4700,  4908)
+EngRPMPowerOutside=(2,  4000,  5700,  6708)
+EngRPMPowerOutside=(3,  5000,  6700,  7392)
+EngRPMPowerOutside=(4,  5000,  7550,  7944)
+EngRPMPowerOutside=(5,  7450, 10000,  6850)
+
+// coast outside
+EngRPMCoastOutside=(0,     1,  2000,  1000)
+EngRPMCoastOutside=(1,  1200,  4200,  4608)
+EngRPMCoastOutside=(2,  3000,  5400,  5890)
+EngRPMCoastOutside=(3,  4650,  6500,  6780)
+EngRPMCoastOutside=(4,  5800,  7550,  7944)
+EngRPMCoastOutside=(5,  7400, 10000,  6400)
+
+//------------------
+// TRANNY-SAMPLE MIX
+//------------------
+
+VS_INSIDE_COAST_TRANNY_1=1.60,EEC_GTE\FordGT_V6\Tranny_offlow_4000RPM.wav
+VS_INSIDE_COAST_TRANNY_2=1.40,EEC_GTE\FordGT_V6\Tranny_offhigh_8000RPM.wav
+VS_INSIDE_POWER_TRANNY_1=1.60,EEC_GTE\FordGT_V6\Tranny_onlow_4000RPM.wav
+VS_INSIDE_POWER_TRANNY_2=1.40,EEC_GTE\FordGT_V6\Tranny_onhigh_8000RPM.wav
+
+VS_OUTSIDE_COAST_TRANNY_1=EEC_GTE\FordGT_V6\Tranny4000_ex.wav
+VS_OUTSIDE_COAST_TRANNY_2=EEC_GTE\FordGT_V6\Tranny6000_ex.wav
+VS_OUTSIDE_POWER_TRANNY_1=EEC_GTE\FordGT_V6\Tranny4000_ex.wav
+VS_OUTSIDE_POWER_TRANNY_2=EEC_GTE\FordGT_V6\Tranny6000_ex.wav
+
+TrannyInitialRampRPM=1000.0
+TrannyCoastBlendRPMInside=(3000.0, 5000)
+TrannyCoast1RPMTorqueInside=(4000, 80.0)
+TrannyCoast2RPMTorqueInside=(8000, 80.0)
+TrannyPowerBlendRPMInside=(3000.0, 5000)
+TrannyPower1RPMTorqueInside=(4000, 80.0)
+TrannyPower2RPMTorqueInside=(8000, 80.0)
+
+TrannyCoastBlendRPMOutside=(3000.0, 5000)
+TrannyCoast1RPMTorqueOutside=(4000, 80.0)
+TrannyCoast2RPMTorqueOutside=(6000, 80.0)
+TrannyPowerBlendRPMOutside=(3000.0, 5000)
+TrannyPower1RPMTorqueOutside=(4000, 80.0)
+TrannyPower2RPMTorqueOutside=(6000, 80.0)
+
+// BRAKE HISS
+ 
+VS_INSIDE_BRAKES_LOW=0.2, StockCarBrasil\brakes_low_int.wav  // low-speed
+VS_INSIDE_BRAKES_HIGH=0.5, StockCarBrasil\brakes_high_int.wav // high-speed 
+VS_OUTSIDE_BRAKES_LOW=null
+VS_OUTSIDE_BRAKES_HIGH=null
+ 
+// Note: all speeds are in meters/sec: 50.0 m/s = 112 mph = 180 kph 
+//
+// Lower BrakePressure numbers will cause the volume to ramp up faster with 
+// less applied pressure, and will be more steady at higher pressures.
+// Higher BrakePressure numbers will tend to make the volume more dependent
+// on applied pressure.
+// Temperature effects on brake hiss volume are not implemented yet. 
+ 
+BrakeRampSpeed=3.0      // volume ramps up to this speed
+BrakeBlendSpeeds=(8.0, 23.0) // blends between low- and high-speed brake hiss
+BrakeFadeSpeeds=(23.0, 42.0) // fades out high-speed brake hiss between these speeds
+BrakePressure=0.20      // defines how brake pressure affects brake hiss volume

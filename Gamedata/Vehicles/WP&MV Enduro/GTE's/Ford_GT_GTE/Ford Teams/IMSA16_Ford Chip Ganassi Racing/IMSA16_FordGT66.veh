@@ -1,0 +1,33 @@
+DefaultLivery="IMSA16_FordGT66.dds"
+
+HDVehicle=GT_GTE.hdv
+Graphics=GT_GTE.gen
+Spinner=GT_GTE_Spinner.gen
+Cameras=GT_GTE.cam
+GenString=1M3O
+Sounds=Ford_V6.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=GT_GTE_Cpit.ini
+Upgrades=GT_GTE_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=66
+Team="Ford Chip Ganassi Racing #66"
+PitGroup="Group4"
+Driver1="Joey Hand"
+Driver2="Dirk Müller"
+Description="Ford GT"
+Engine="Ford Ecoboost 3.5L V6"
+Manufacturer="Ford"
+Classes="Wilson-VindisGT"
+
+FullTeamName="Ford Chip Ganassi Racing #66"
+TeamFounded=
+TeamHeadquarters=""
+TeamStarts=0
+TeamPoles=0
+TeamWins=0
+TeamWorldChampionships=0
+
+Category="Wilson-VindisGT, GTLM"

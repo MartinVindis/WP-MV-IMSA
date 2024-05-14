@@ -1,0 +1,153 @@
+ SearchPath=<TEAMDIR>..\
+ SearchPath=<TEAMDIR>
+ SearchPath=<VEHDIR>
+ SearchPath=<VEHDIR>\WP&MV Enduro\Prototypes\HPD_ARX03
+ MASFile=WP&MV Enduro\Prototypes\HPD_ARX03\HPD_ARX03.mas
+ MASFile=WP&MV Enduro\Prototypes\HPD_ARX03\HPD_ARX03_Cpit.mas
+ MASFile=WP&MV Enduro\Prototypes\HPD_ARX03\HPD_ARX03_Lights.mas
+ MASFile=WP&MV Enduro\Prototypes\HPD_ARX03\HPD_ARX03_Tex.mas
+ MASFile=WP&MV Enduro\MVWPMAPS.mas
+
+ ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+ Moveable=True
+ MeshFile=HPD_ARX03_CHASSIS_LODA.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(60.0) Reflect=True
+// MeshFile=HPD_ARX03_INTERIOR_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=HPD_ARX03_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=HPD_ARX03_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 64, 64) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=HPD_ARX03_GLOW.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) Reflect=True
+ 
+ Actor=VEHICLE
+
+ Instance=WHEELEXT
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_SWHEEL_EXT.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(30.00) Reflect=True
+ }
+ 
+//----------------------------------------= DAMAGE =----------------------------------------\\
+
+ Instance=DETAILEDENGINE
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_DETAILEDENGINE_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(25.0)
+ }
+ 
+//----------------------------------------= WINGS =----------------------------------------\\
+ 
+ Instance=FWING // FRONT BUMPER
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_SPLITTER_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=RWING 
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_WING_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+//----------------------------------------= ADDITIONAL DETACHABLES =----------------------------------------\\
+ 
+ Instance=DEBRIS0 // LIGHT LF
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_LIGHTGLASS_LF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.00) Reflect=True
+ }
+
+ Instance=DEBRIS1 // LIGHT RF
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_LIGHTGLASS_RF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.00) Reflect=True 
+ }
+
+// Instance=DEBRIS2 // LIGHT LR
+// {
+// Moveable=True
+// MeshFile=HPD_ARX03_LIGHTGLASS_LR.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.00) Reflect=True
+// }
+
+// Instance=DEBRIS3 // LIGHT RR
+// {
+// Moveable=True
+// MeshFile=HPD_ARX03_LIGHTGLASS_RR.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.00) Reflect=True
+// }
+ 
+ Instance=DEBRIS6 // LWINGLET
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_WINGLET_LF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=DEBRIS7 // RWINGLET
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_WINGLET_RF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+
+//----------------------------------------= WHEELS =----------------------------------------\\
+
+ Instance=LFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_DISK_LF_<1>.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LFSPINDLE
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_CALIPER_LF_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=RFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_DISK_RF_<1>.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RFSPINDLE
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_CALIPER_RF_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=LRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_DISK_LR_<1>.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LRSPINDLE
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_CALIPER_LR_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+ 
+//---------
+
+ Instance=RRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=HPD_ARX03_DISK_RR_<1>.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RRSPINDLE
+ {
+ Moveable=True
+ MeshFile=HPD_ARX03_CALIPER_RR_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+}

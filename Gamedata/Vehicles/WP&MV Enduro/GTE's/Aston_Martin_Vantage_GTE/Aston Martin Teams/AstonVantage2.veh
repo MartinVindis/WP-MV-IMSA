@@ -1,0 +1,34 @@
+DefaultLivery="AstonVantage2.dds"
+
+HDVehicle=Vantage_GTE.hdv
+Graphics=Vantage_GTE.gen
+Spinner=Vantage_GTE_Spinner.gen
+Cameras=Vantage_GTE.cam
+GenString=1M3C
+Sounds=Aston_Martin_V8.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=Vantage_GTE_cpit.ini
+Upgrades=Vantage_GTE_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=7
+Team="Aston Martin Racing #95"
+PitGroup="Group4"
+Driver1="Nicki Dream"
+Description="AMR Vantage GTE"
+Engine="Aston Martin 4.5L V8"
+Manufacturer="Prodrive"
+Transmission="6-speed sequential"
+Extra="front engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Aston Martin Racing #95"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTLM"

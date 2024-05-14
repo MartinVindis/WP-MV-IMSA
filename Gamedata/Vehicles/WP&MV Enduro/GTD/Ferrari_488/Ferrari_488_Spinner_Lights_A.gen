@@ -1,0 +1,173 @@
+ SearchPath=<TEAMDIR>..\
+ SearchPath=<TEAMDIR>
+ SearchPath=<VEHDIR>
+ SearchPath=<VEHDIR>\WP&MV Enduro\GTD\Ferrari_488
+ MASFile=WP&MV Enduro\GTD\Ferrari_488\Ferrari_488.mas
+ MASFile=WP&MV Enduro\GTD\Ferrari_488\Ferrari_488_Cpit.mas
+ MASFile=WP&MV Enduro\GTD\Ferrari_488\Ferrari_488_Lights_A.mas
+ MASFile=WP&MV Enduro\GTD\Ferrari_488\Ferrari_488_Tex.mas
+ MASFile=WP&MV Enduro\MVWPMAPS.mas
+
+ ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+ Moveable=True
+ MeshFile=Ferrari_488_CHASSIS_LODA.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(60.0) Reflect=True
+ MeshFile=Ferrari_488_INTERIOR_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(60.0) Reflect=True
+ MeshFile=Ferrari_488_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=Ferrari_488_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=Ferrari_488_FLASHLIGHT_<6>.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) Reflect=True
+ 
+ Actor=VEHICLE
+
+ Instance=WHEELEXT
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_SWHEEL_EXT.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(30.00) Reflect=True
+ }
+ 
+ Instance=SEAT
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_SEAT.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) Reflect=True
+ }
+ 
+//----------------------------------------= DAMAGE =----------------------------------------\\
+
+ Instance=DETAILEDENGINE
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_DETAILEDENGINE.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(25.0)
+ }
+ 
+//----------------------------------------= WINGS =----------------------------------------\\
+ 
+ Instance=FWING // FRONT BUMPER
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_BUMPER_F_LODA_A.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// MeshFile=Ferrari_488_ENDULIGHTS_A.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) Reflect=True
+// MeshFile=Ferrari_488_FRONTPLATE_<5>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=RWING 
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_WING_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+//----------------------------------------= ADDITIONAL DETACHABLES =----------------------------------------\\
+ 
+ Instance=DEBRIS0 // LIGHT LF
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_LIGHTGLASS_LF_A.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=DEBRIS1 // LIGHT RF
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_LIGHTGLASS_RF_A.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True 
+ }
+
+// Instance=DEBRIS2 // LIGHT LR
+// {
+// Moveable=True
+// MeshFile=Ferrari_488_LIGHTGLASS_LR.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// }
+
+// Instance=DEBRIS3 // LIGHT RR
+// {
+// Moveable=True
+// MeshFile=Ferrari_488_LIGHTGLASS_RR.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// }
+
+ Instance=DEBRIS4 // REAR BUMPER
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_BUMPER_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=DEBRIS5 // HOOD
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_HOOD_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=DEBRIS6 // LWINGLET
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_WINGLET_LF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=DEBRIS7 // RWINGLET
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_WINGLET_RF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+
+//----------------------------------------= WHEELS =----------------------------------------\\
+
+ Instance=LFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_DISK_LF.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_CALIPER_LF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=RFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_DISK_RF.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_CALIPER_RF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=LRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_DISK_LR.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_CALIPER_LR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+ 
+//---------
+
+ Instance=RRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Ferrari_488_DISK_RR.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Ferrari_488_CALIPER_RR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+}

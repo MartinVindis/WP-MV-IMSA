@@ -1,0 +1,34 @@
+DefaultLivery="IMSA16_Porsche912.dds"
+
+HDVehicle=991_GTE.hdv
+Graphics=991_GTE.gen
+Spinner=991_GTE_Spinner.gen
+Cameras=991_GTE.cam
+GenString=1M3O
+Sounds=Porsche_Flat6.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=991_GTE_Cpit.ini
+Upgrades=991_GTE_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=912
+Team="Porsche North America #912"
+PitGroup="Group5"
+Driver1="Earl Bamber"
+Description="Porsche 991 RSR #912"
+Engine="Porsche M9780 4L B6"
+Manufacturer="Porsche"
+Transmission="6-speed sequential"
+Extra="rear engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Porsche North America #912"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTLM"

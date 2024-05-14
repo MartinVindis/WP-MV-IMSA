@@ -1,0 +1,32 @@
+DefaultLivery="14IMSA_Mazda07.dds"
+
+HDVehicle=Mazda_Lola.hdv
+Graphics=Lola_B12.gen
+Spinner=Lola_B12_Spinner.gen
+GenString=2C2O
+Sounds=Lola_Judd_V8.sfx                 // Sounds=default.sfx
+Cameras=Lola_B12.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=MVWP_HeadPhysics.ini         // Affects driver eyepoint only
+Cockpit=Lola_B12_Cpit.ini
+Upgrades=Lola_B12_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=07
+Team="Mazda Motorsports #07"
+PitGroup="Group9"
+Driver="Tristan Nunez"
+Description="#07 - Mazda Motorsports"
+Engine="Mazda SkyActiv-D I4 2.2L Turbo Diesel"
+Manufacturer="Lola"
+Classes="Wilson-VindisP"
+
+FullTeamName="Mazda Motorsports #07"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisP, Prototype"

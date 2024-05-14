@@ -1,0 +1,328 @@
+// EEC Audi R8 LMS
+
+// ENGINE SOUNDS (INSIDE)
+
+VS_INSIDE_COAST_ENGINE_1=1.00, EEC_GT3\Audi_V10\Audi_V10_idle.wav
+VS_INSIDE_COAST_ENGINE_2=1.50, EEC_GT3\Audi_V10\Audi_V10_offlow.wav
+VS_INSIDE_COAST_ENGINE_3=1.50, EEC_GT3\Audi_V10\Audi_V10_offmid.wav
+VS_INSIDE_COAST_ENGINE_4=2.00, EEC_GT3\Audi_V10\Audi_V10_offhigh.wav
+
+VS_INSIDE_POWER_ENGINE_1=1.00, EEC_GT3\Audi_V10\Audi_V10_idle.wav
+VS_INSIDE_POWER_ENGINE_2=9.00, EEC_GT3\Audi_V10\Audi_V10_onlow.wav
+VS_INSIDE_POWER_ENGINE_3=10.00, EEC_GT3\Audi_V10\Audi_V10_onmid.wav
+
+// VS_INSIDE_ENGINE_STARTER=2.00, EEC_GT3\fuelpump.wav
+VS_INSIDE_ENGINE_STARTING=10.00, EEC_GT3\Audi_V10\Audi_V10_startup.wav
+
+// ENGINE SOUNDS (OUTSIDE)
+
+VS_Outside_COAST_ENGINE_1=0.70, EEC_GT3\Audi_V10\Audi_V10_ex_idle.wav
+VS_Outside_COAST_ENGINE_2=1.00, EEC_GT3\Audi_V10\Audi_V10_ex_offlow.wav
+VS_Outside_COAST_ENGINE_3=1.00, EEC_GT3\Audi_V10\Audi_V10_ex_offmid.wav
+VS_Outside_COAST_ENGINE_4=0.80, EEC_GT3\Audi_V10\Audi_V10_ex_offhigh.wav
+
+VS_Outside_POWER_ENGINE_1=0.60, EEC_GT3\Audi_V10\Audi_V10_ex_idle.wav
+VS_Outside_POWER_ENGINE_2=0.90, EEC_GT3\Audi_V10\Audi_V10_ex_onlow.wav
+VS_Outside_POWER_ENGINE_3=1.80, EEC_GT3\Audi_V10\Audi_V10_ex_onveryhigh.wav
+
+// VS_OUTSIDE_ENGINE_STARTER=2.00, EEC_GT3\fuelpump_ext.wav
+VS_OUTSIDE_ENGINE_STARTING=1.00, EEC_GT3\Audi_V10\Audi_V10_ex_startup.wav
+
+// BACKFIRE & SHIFT SOUNDS (INSIDE)
+
+VS_INSIDE_SHIFT_UP_1=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_up.wav
+VS_INSIDE_SHIFT_UP_2=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_up_2.wav
+VS_INSIDE_SHIFT_UP_3=1.50,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_up_2.wav
+VS_INSIDE_SHIFT_DOWN_1=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_down.wav
+VS_INSIDE_SHIFT_DOWN_2=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_down_4.wav
+VS_INSIDE_SHIFT_DOWN_3=1.20,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_change_down_4.wav
+
+VS_INSIDE_BACKFIRE_1=2.7,EEC_GT3\Chevrolet_V8\Chevrolet_V8_backf02_in.wav
+VS_INSIDE_BACKFIRE_2=2.7,EEC_GT3\Chevrolet_V8\Chevrolet_V8_backf01_in.wav
+VS_INSIDE_BACKFIRE_3=2.7,EEC_GT3\Chevrolet_V8\Chevrolet_V8_backf02_in.wav
+
+// BACKFIRE & SHIFT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SHIFT_UP_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_up_1.wav
+VS_OUTSIDE_SHIFT_UP_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_up_2.wav
+VS_OUTSIDE_SHIFT_UP_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_up_3.wav
+VS_OUTSIDE_SHIFT_DOWN_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_1
+VS_OUTSIDE_SHIFT_DOWN_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_2
+VS_OUTSIDE_SHIFT_DOWN_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_3
+
+VS_OUTSIDE_BACKFIRE_1=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_1
+VS_OUTSIDE_BACKFIRE_2=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_2
+VS_OUTSIDE_BACKFIRE_3=1.30,EEC_GT3\Cadillac_V6\Cadillac_V6_gear_ext_down_3
+
+// ROAD SURFACE SOUNDS (INSIDE)
+VS_INSIDE_WIND_NOISE=0.5, TireSurface\wind_int_new.wav
+VS_INSIDE_ROADNOISE_DRY=0.8, TireSurface\new_effects\roadnoise_in.wav 
+VS_INSIDE_ROADNOISE_GRASS=1.9, TireSurface\new_effects\dirt_roll_closed.wav //grass_roll.wav
+VS_INSIDE_ROADNOISE_DIRT=2.1, TireSurface\new_effects\dirt_roll_closed.wav
+VS_INSIDE_ROADNOISE_GRAVEL=2.2, TireSurface\new_effects\dirt_roll_closed.wav //gravel_roll_closed_cockpit.wav
+
+// ROAD SURFACE SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_ROADNOISE_DRY=0.20, TireSurface\new_effects\roadnoise_ex.wav
+VS_OUTSIDE_ROADNOISE_WET= StockCarBrasil\road_roll_ext_wet.wav
+VS_OUTSIDE_ROADNOISE_GRASS=1.0, TireSurface\new_effects\dirt_roll_ex.wav
+VS_OUTSIDE_ROADNOISE_DIRT=1.0, TireSurface\new_effects\dirt_roll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=1.0,TireSurface\new_effects\dirt_roll_ex.wav
+
+// RUMBLESTRIP SOUNDS (INSIDE)
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=13.0, TireSurface\rumble_closed_racecar2.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPGROOVED=13.0, TireSurface\new_effects\rumblestrip_grooved_closed.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPFLAT=13.0, TireSurface\new_effects\rumblestrip_flat_closed.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPCRETE=13.0, TireSurface\new_effects\rumblestrip_grasscrete_closed.wav
+
+// RUMBLESTRIP SOUNDS (OUTSIDE)
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=1.0, TireSurface\new_effects\rumblestrip_external_4.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPGROOVED=1.0, TireSurface\new_effects\rumblestrip_grooved_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPFLAT=1.0, TireSurface\new_effects\rumblestrip_flat_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPCRETE=1.0, TireSurface\new_effects\rumblestrip_grasscrete_ex.wav
+
+// NEW EFFECTS (INSIDE)
+
+VS_INSIDE_BLOWOUT=10.0, TireSurface\engine_blow_2.wav
+VS_INSIDE_DIRT_RESIDUE=1.8, TireSurface\new_effects\dirt_residue_closed.wav
+VS_INSIDE_SCRAPING_ROAD=0.7, TireSurface\new_effects\scrape_road_911_2_metal.wav
+VS_INSIDE_BUMPSTOP=0.6, TireSurface\new_effects\opala_bumpstop_2.wav
+VS_INSIDE_GRINDING_GEARS=1.0, TireSurface\grind_tranny_in_short.wav
+
+// NEW EFFECTS (OUTSIDE)
+
+VS_OUTSIDE_BLOWOUT=1.0, TireSurface\engine_blow_2.wav
+VS_OUTSIDE_DIRT_RESIDUE=0.8, TireSurface\new_effects\dirt_residue_ex.wav
+VS_OUTSIDE_SCRAPING_ROAD=1.0, TireSurface\new_effects\suspension_ex.wav
+VS_OUTSIDE_BUMPSTOP=0.6, TireSurface\new_effects\bumpstop_ex.wav
+VS_OUTSIDE_GRINDING_GEARS= TireSurface\new_effects\grind_tranny_ex_short.wav
+
+// SKID SOUNDS (INSIDE)
+VS_INSIDE_TIRE_SCRUB=1.0, TireSurface\ROAD_SCRUB_CLOSED_1.wav
+VS_INSIDE_SKID_DRY=1.0, TireSurface\ROAD_SKID_CLOSED_1.wav
+VS_INSIDE_SKID_GRASS=4.5, TireSurface\grass_trap_closed_cockpit.wav
+VS_INSIDE_SKID_DIRT=3.5, TireSurface\dirt_trap_closed_cockpit.wav
+VS_INSIDE_SKID_GRAVEL=3.5, TireSurface\gravel_trap_closed_cockpit.wav
+
+// SKID SOUNDS (OUTSIDE)
+VS_OUTSIDE_TIRE_SCRUB=0.5, TireSurface\ROAD_SCRUB_CLOSED_1.wav
+VS_OUTSIDE_SKID_DRY=0.5, TireSurface\ROAD_SKID_CLOSED_1.wav
+VS_OUTSIDE_SKID_GRASS=0.5, TireSurface\ex_grass_trap.wav
+VS_OUTSIDE_SKID_DIRT=0.5, TireSurface\ex_dirt_trap.wav
+VS_OUTSIDE_SKID_GRAVEL=0.5, TireSurface\ex_gravel_trap.wav
+
+// CONTACT SOUNDS (INSIDE)
+
+VS_INSIDE_SCRAPING=4.5, TireSurface\scrape.wav
+
+VS_INSIDE_HIT_WALL_1=CRASH\impact_wall_tap.wav
+VS_INSIDE_HIT_WALL_2=CRASH\impact_wall_verylight2.wav
+VS_INSIDE_HIT_WALL_3=CRASH\impact_wall_verylight.wav
+VS_INSIDE_HIT_WALL_4=CRASH\impact_wall_medium2.wav
+VS_INSIDE_HIT_WALL_5=CRASH\impact_wall_heavy3.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=CRASH\impact_car_tap.wav
+VS_INSIDE_HIT_OTHERCAR_2=CRASH\impact_car_verylight.wav
+VS_INSIDE_HIT_OTHERCAR_3=CRASH\impact_car_light.wav
+VS_INSIDE_HIT_OTHERCAR_4=CRASH\impact_car_medium.wav
+VS_INSIDE_HIT_OTHERCAR_5=CRASH\impact_car_heavy.wav
+
+VS_INSIDE_HIT_CONE=CRASH\cone_hit.wav
+
+// CONTACT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SCRAPING=TireSurface\ex_scrape.wav
+
+VS_OUTSIDE_HIT_WALL_1=CRASH\ex_impact_wall_tap.wav
+VS_OUTSIDE_HIT_WALL_2=CRASH\ex_impact_wall_verylight2.wav
+VS_OUTSIDE_HIT_WALL_3=CRASH\ex_impact_wall_light.wav
+VS_OUTSIDE_HIT_WALL_4=CRASH\ex_impact_wall_medium2.wav
+VS_OUTSIDE_HIT_WALL_5=CRASH\ex_impact_wall_heavy3.wav
+
+VS_OUTSIDE_HIT_OTHERCAR_1=CRASH\ex_impact_car_tap.wav
+VS_OUTSIDE_HIT_OTHERCAR_2=CRASH\ex_impact_car_verylight.wav
+VS_OUTSIDE_HIT_OTHERCAR_3=CRASH\ex_impact_car_light.wav
+VS_OUTSIDE_HIT_OTHERCAR_4=CRASH\ex_impact_car_medium.wav
+VS_OUTSIDE_HIT_OTHERCAR_5=CRASH\ex_impact_car_heavy.wav
+
+VS_OUTSIDE_HIT_CONE=CRASH\ex_cone_hit2.wav
+
+// AMBIENT SOUNDS (INSIDE)
+
+VS_INSIDE_SPEED_LIMITER_TOGGLE=StockCarBrasil\limitertoggle.wav
+VS_INSIDE_TRACTION_CONTROL=EEC_GT3\traction_control.wav
+VS_INSIDE_ON_FIRE=StockCarBrasil\fire.wav
+
+// AMBIENT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SPEED_LIMITER_TOGGLE=
+VS_OUTSIDE_WIND_NOISE=
+VS_OUTSIDE_TRACTION_CONTROL=EEC_GT3\traction_control_ext.wav
+VS_OUTSIDE_ON_FIRE=StockCarBrasil\fire.wav
+
+// ATTENUTATION
+
+EngineRange=55.0
+EngineShape=1.00
+EngineAmbient=0.80
+
+ShiftRange=70.0
+ShiftShape=1.00
+ShiftAmbient=1.05
+
+OtherRange=85.0
+OtherShape=1.00
+OtherAmbient=1.05
+
+// ENGINE VOLUME MIX
+
+playerEngineVolumeMinimum=0.8
+playerEngineVolumeThrottleFraction=0.4
+playerEngineVolumeRevFraction=0.1
+
+non-playerEngineVolumeMinimum=0.8
+non-playerEngineVolumeThrottleFraction=0.4
+non-playerEngineVolumeRevFraction=0.1
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.1,0.7)  // power sound starts to blend in at 10% throttle, coast sound blends out at 70%
+EngineLoadBlendOutside=(0.05,0.5) // power sound starts to blend in at 10% throttle, coast sound blends out at 70%
+
+// ENGINE REV-SAMPLE MIX
+
+EngineRPMCoastInside=0
+{
+ MinimumRPM=1.00     // above zero, but low enough to hear engine stall
+ MaximumRPM=3000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=1
+{
+ MinimumRPM=697.00   // must overlap properly
+ MaximumRPM=4100.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=2
+{
+ MinimumRPM=3001.00   // must overlap properly
+ MaximumRPM=6500.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=3
+{
+ MinimumRPM=4501.00   // must overlap properly
+ MaximumRPM=9500.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=0
+{
+ MinimumRPM=1.00     // above zero, but low enough to hear engine stall
+ MaximumRPM=3000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=1
+{
+ MinimumRPM=697.00   // must overlap properly
+ MaximumRPM=5000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=2
+{
+ MinimumRPM=3001.00   // must overlap properly
+ MaximumRPM=10000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=0
+{
+ MinimumRPM=1.00     // above zero, but low enough to hear engine stall
+ MaximumRPM=3000.00   // must overlap properly
+ NaturalRPM=5200.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=1
+{
+ MinimumRPM=1997.00   // must overlap properly
+ MaximumRPM=5000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=2
+{
+ MinimumRPM=4001.00   // must overlap properly
+ MaximumRPM=6000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=3
+{
+ MinimumRPM=5001.00   // must overlap properly
+ MaximumRPM=10000.00   // must overlap properly
+ NaturalRPM=6000.00  // engine RPM at which sample was recorded
+}
+
+// power outside
+EngineRPMPowerOutside=0
+{
+  MinimumRPM=1.00         // above zero, but low enough to hear engine stall
+  MaximumRPM=3000.00     // must overlap properly
+  NaturalRPM=5900.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=1
+{
+  MinimumRPM=1997.00     // must overlap properly
+  MaximumRPM=5000.00     // must overlap properly
+  NaturalRPM=5900.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=2
+{
+  MinimumRPM=3097.00     // must overlap properly
+  MaximumRPM=10000.00     // must overlap properly
+  NaturalRPM=5900.00   // engine RPM at which sample was recorded
+}
+
+// TRANNY-SAMPLE MIX
+
+VS_INSIDE_POWER_TRANNY_1=1.30, EEC_GT3\tw_onlow.wav
+VS_INSIDE_POWER_TRANNY_2=0.30, EEC_GT3\tw_onhigh.wav
+VS_INSIDE_COAST_TRANNY_1=1.90, EEC_GT3\tw_offlow.wav
+VS_INSIDE_COAST_TRANNY_2=1.90, EEC_GT3\tw_offhigh.wav
+
+TrannyInitialRampRPM=2000.0 
+
+TrannyPowerBlendRPMInside=(1750.00, 5500.0)
+TrannyPower1RPMTorqueInside=(1750, 220.0)
+TrannyPower2RPMTorqueInside=(1750, 240.0)
+
+TrannyCoastBlendRPMInside=(1750.00, 5500.0) 
+TrannyCoast1RPMTorqueInside=(1750, 200.0) 
+TrannyCoast2RPMTorqueInside=(1750, 200.0)
+
+// BRAKE HISS
+ 
+VS_INSIDE_BRAKES_LOW=0.2, StockCarBrasil\brakes_low_int.wav  // low-speed
+VS_INSIDE_BRAKES_HIGH=0.5, StockCarBrasil\brakes_high_int.wav // high-speed 
+VS_OUTSIDE_BRAKES_LOW=null
+VS_OUTSIDE_BRAKES_HIGH=null
+ 
+// Note: all speeds are in meters/sec: 50.0 m/s = 112 mph = 180 kph 
+//
+// Lower BrakePressure numbers will cause the volume to ramp up faster with 
+// less applied pressure, and will be more steady at higher pressures.
+// Higher BrakePressure numbers will tend to make the volume more dependent
+// on applied pressure.
+// Temperature effects on brake hiss volume are not implemented yet. 
+ 
+BrakeRampSpeed=3.0      // volume ramps up to this speed
+BrakeBlendSpeeds=(8.0, 23.0) // blends between low- and high-speed brake hiss
+BrakeFadeSpeeds=(23.0, 42.0) // fades out high-speed brake hiss between these speeds
+BrakePressure=0.20      // defines how brake pressure affects brake hiss volume

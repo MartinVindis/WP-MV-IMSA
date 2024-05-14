@@ -1,0 +1,190 @@
+// Game/Season Info:
+Mod Name = Wilson & Vindis
+Track Filter = *
+Vehicle Filter = OR: Wilson-VindisP Wilson-VindisGT
+SafetyCar = CamaroSS_SC.veh
+
+Matchmaker = match.reizastudios.com
+Matchmaker TCP Port = 40001
+Matchmaker UDP Port = 40002
+Loading Bar Color = 13244190
+
+OvertakingRadiusRiskBypass = 400//radius in meter, from this radius and above the AI will be bypassing, bellow it will not
+OvertakingWaypointsAhead = 15 //Number of waypoints ahead of the current one to calculate the radius
+
+Max Opponents = 45   // maximum opponents in practice/quick race/grand prix/championship
+Min Championship Opponents = 5 // minimum opponents in championship only
+
+
+ConfigOverrides
+{
+  DriversDir=GAMEDATA\TALENT\WP&MV\ 
+}
+
+
+
+
+// Seasons:
+
+Season = My Wilson-Vindis
+{
+	FullSeasonName = My Wilson & Vindis
+	BaseCreditMult = 0.0
+	MinExperience = 0
+	EntryFee = 0
+	Vehicle Filter = |Wilson-Vindis |Wilson-VindisP |Wilson-VindisGT
+	SeasonScoringInfo
+{
+		r1p1 = 22
+		r1p2 = 20
+		r1p3 = 18
+		r1p4 = 16
+		r1p5 = 14
+		r1p6 = 12
+		r1p7 = 10
+		r1p8 = 9
+		r1p9 = 8
+		r1p10 = 7
+		r1p11 = 6
+		r1p12 = 5
+		r1p13 = 4
+		r1p14 = 3
+		r1p15 = 2
+		r1p16 = 1
+		DoublePointsFinale = 1
+}
+	DefaultScoring
+{
+		FormationSpeedKPH = 100
+		SafetyCarRoadMult = 2.00
+		LuckyDog = 0
+		MinimumYellowLaps = 2
+		RandomYellowLaps = 0
+		ClosePits = 0
+		PitsClosedLaps = 0
+		LeadYellowLaps = 0
+		ClosedPitPenalty = 0
+		LocalYellowsRoad = 1
+		PrivateQualifying = 0
+		ParcFerme = 0
+}
+	SceneOrder
+{
+EECDaytona
+Sebring_12h
+LongBeachGP2012
+Laguna_SecaCART
+EECWatkins
+MoSport
+Indy_MidOhio
+Road_AmericaCART
+Virginia
+ROADATLANTA3
+}
+	OtherScoringInfo
+{
+		MostLapsLead = 10
+		AnyLapsLead = 1
+		FastestLap = 1
+		PolePosition = 1
+}
+}
+
+
+  // RULES
+    RaceRefuelling = 1
+	SafetyCarRoadMult=2.00
+	SafetyCarOvalMult=0.20
+	SpinRoadSeverity=0.0
+	SpinOvalSeverity=0.30
+	PitSpeedingAllowance = 4.0
+	LuckyDog = 0
+	MinimumYellowLaps = 2
+	RandomYellowLaps = 0
+	ClosePits = 0
+	PitsClosedLaps = 0
+	LeadYellowLaps = 0
+	ClosedPitPenalty = 0
+	LocalYellowsRoad = 1
+	LocalYellowsOval = 0
+	PrivateQualifying = 0
+	AdditivePenalties = 1
+	LapsToServePenalty = 3
+	PassingBeforeLineOval=3
+	PassingBeforeLineRoad=3
+	FreezeOrder = 0
+	FinishUnderCaution = 0
+	CountCautionLaps = 1
+	DoubleFileRestarts=0
+	ParcFerme = 0
+	ParcFermeFuel = 0.0
+	ParcFermeTires = 0
+	ParcFermeSetup = 0
+	FreeSettings = 255
+    BlueFlags = 0
+    AIBlueFlagCurveRadius = 0
+    AIBlueFlagCourtesyThreshold = 0
+    AIBlueFlagReactionTime = 0 
+    AILiftUnderBlue = 0
+	TimedRaceNonLeaderLaps = 2 
+
+}
+
+
+DriveAnyUnlocked = 2         // 0 = must own to drive, 1 = must be unlocked to drive, 2 = drive anything
+BaseCreditMult = 0.0         // base which is multiplied by all the other multipliers
+LapMoneyMult = 0.0           // laps completed (based roughly on expected lap times)
+LapExpMult = 0.0
+FineMoneyMult = 1.0          // fines
+FineExpMult = 0.0
+PoleSingleMoneyMult = 1.0    // pole positions in single player
+PoleSingleExpMult = 1.0
+PoleCareerMoneyMult = 1.0    // pole positions in career mode
+PoleCareerExpMult = 1.0
+PoleMultiMoneyMult = 1.0     // pole positions in multiplayer
+PoleMultiExpMult = 1.0
+WinSingleMoneyMult = 1.0     // wins in single player
+WinSingleExpMult = 1.0
+WinCareerMoneyMult = 1.0     // wins in career mode
+WinCareerExpMult = 1.0
+WinMultiMoneyMult = 1.0      // wins in multiplayer
+WinMultiExpMult = 1.0
+PointsSingleMoneyMult = 1.0  // points in single player
+PointsSingleExpMult = 1.0
+PointsCareerMoneyMult = 1.0  // points in career mode
+PointsCareerExpMult = 1.0
+PointsMultiMoneyMult = 1.0   // points in multiplayer
+PointsMultiExpMult = 1.0
+
+
+
+// Pitstop locations in order from front to back, with the number
+// of vehicles sharing each pit ... if the order needs to be
+// reversed on an individual track, set "ReversePitOrder=1" in
+// the track-specific GDB file.
+// These are now "pit group" names, not necessarily team names.
+// In the VEH file, the pit group defaults to the team name but
+// can be overridden by defining "PitGroup=<name>".
+PitOrderByQualifying = false    // whether to set the pit order in the race by qualifying results
+PitGroupOrder
+{
+  // format is: PitGroup = <# of vehicles sharing pit>, <groupname>
+  PitGroup = 2, Group1
+  PitGroup = 2, Group2
+  PitGroup = 2, Group3
+  PitGroup = 2, Group4
+  PitGroup = 2, Group5
+  PitGroup = 2, Group6
+  PitGroup = 2, Group7
+  PitGroup = 2, Group8
+  PitGroup = 2, Group9
+  PitGroup = 2, Group10
+  PitGroup = 2, Group11
+  PitGroup = 2, Group12
+  PitGroup = 2, Group13
+  PitGroup = 2, Group14
+  PitGroup = 2, Group15
+  PitGroup = 2, Group16
+  PitGroup = 2, Group17
+}
+

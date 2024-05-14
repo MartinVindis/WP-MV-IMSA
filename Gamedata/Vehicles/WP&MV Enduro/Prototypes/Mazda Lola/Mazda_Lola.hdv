@@ -1,0 +1,544 @@
+// EnduRacers - Endurance Series
+// EnduRacers © 2015
+// SP3
+// Dev Gentlemen-Racers : SP3 b008
+// This is the high-detail vehicle parameter file.
+// It is pointed to by one or more *.veh files.
+//
+// Any range has the following values: (minimum, step size, number of steps)
+// Any setting refers to the step from 0 to <number of steps - 1>.
+//
+// Everything is in SI units (kg, m, kPa, N, etc.), except:
+// Engine speed is measured in RPM.
+// Angles are measured in degrees.
+//
+// +x = left
+// +y = up
+// +z = rear
+//
+// Pushrod connections are adjusted from the values found in this file
+// based on the graphical location of the wheels.  If the graphical location
+// does not match the physical location (found in a .pm file), then all
+// suspension joints (including the pushrods) are adjusted to match the
+// graphical locations.  It should be noted that suspension joints are also
+// adjusted after setting the camber, caster, and toe-in.
+//
+// The "reference plane" is equal to the ride height.  Note that we have
+// added a graphical offset because some series' measure the ride heights to the
+// frame of the car, but the bodywork hangs about an inch lower (especially
+// at the air dam).  The graphical offset does not affect the physics in any
+// way, just the appearance of how far the vehicle is off the ground.  Note
+// that the "undertray" points are where the vehicle bottoms out.
+//
+// Aerodynamic variables:
+// Lift is negative downforce
+
+[GENERAL]
+Rules=0                         // what rules to apply to garage setups (0=none, 1=stock car)
+GarageDisplayFlags=7            // how settings are displayed in garage (add): 1=rear wing, 2=radiator, 4=more gear info
+Mass=900.0                      // all mass except fuel
+Inertia=(1740.4, 1967.4, 385.0)    // (1045.4,1190.9,225.0) all inertia except fuel
+FuelTankPos=(0.00, 0.20, -1.34) // location of tank relative to center of rear axle in reference plane
+FuelTankMotion=(560.0,0.7)      // simple model of fuel movement in tank (spring rate per kg, critical damping ratio)
+Notes="Lola B12 Judd"
+Symmetric=1
+DamageFile=LMP_Damage.ini         // .ini file to find physical and graphical damage info
+CGHeight=0.206                  // height of body mass (excluding fuel) above reference plane
+CGRightRange=(0.500, 0.0, 0)  // fraction of weight on left tires
+CGRightSetting=0
+CGRearRange=(0.54, 0.005, 5)    // fraction of weight on rear tires
+CGRearSetting=2
+GraphicalOffset=(0.0, 0.01, 0.0) // does not affect physics!  This just moves the vehicle body for whatever reasons you may have.
+Undertray00=( 0.40, 0.0,  -1.20)  // corner offset from center of wheels in reference plane
+Undertray01=(-0.40, 0.0,  -1.20)  // corner offset from center of wheels in reference plane
+Undertray02=( 0.40, 0.0,   1.50)  // corner offset from center of wheels in reference plane
+Undertray03=(-0.40, 0.0,   1.50)  // corner offset from center of wheels in reference plane
+Undertray04=( 0.80, 0.0,  -0.50)
+Undertray05=(-0.80, 0.0,  -0.50)
+Undertray06=( 0.80, 0.0,   0.80)
+Undertray07=(-0.80, 0.0,   0.80)
+Undertray08=( 0.80, 0.0,    0.0)
+Undertray09=( 0.0,  0.0,    0.0)
+Undertray10=(-0.80, 0.0,    0.0)
+UndertrayParams=(300000, 15000, 1.0) // undertray spring rate, damper rate, and coefficient of friction
+TireBrand=MVWPMazdaTyres.tbc           // must appear before tire compound setting (references *.tbc file)
+FrontTireCompoundSetting=1      // compound index within brand
+RearTireCompoundSetting=1       // compound index within brand
+FuelRange=(0.0, 1.0,71)
+FuelSetting=60
+NumPitstopsRange=(0, 1, 4)
+NumPitstopsSetting=3
+Pitstop1Range=(0.0, 1.0,81)
+Pitstop1Setting=60
+Pitstop2Range=(0.0, 1.0, 81)
+Pitstop2Setting=60
+Pitstop3Range=(0.0, 1.0, 81)
+Pitstop3Setting=60
+AIAimSpeedsPerWP=(30.0, 52.0, 70.0, 82.0, 100.0, 118.0, 140.0, 175.0, 225.0) // speeds at which to look ahead X waypoints (spaced roughly 5 meters apart) (32.0, 55.0, 75.0, 90.0, 110.0, 130.0, 160.0, 200.0)
+AISlipReaction=(500.0, 30.0)
+AICornerReductionBase=180.0
+AIMinPassesPerTick=3            // minimum passes per tick (can use more accurate spring/damper/torque values, but takes more CPU)
+AIRotationThreshold=0.15        // rotation threshold (rads/sec) to temporarily increment passes per tick
+AIEvenSuspension=0.4            // averages out spring and damper rates to improve stability (0.0 - 1.0)
+AISpringRate=0.8               // spring rate adjustment for AI physics
+AIDamperSlow=0.5                // contribution of average slow damper into simple AI damper
+AIDamperFast=0.5                // contribution of average fast damper into simple AI damper
+AIDownforceZArm=0.030           // hard-coded center-of-pressure offset from vehicle CG
+AIDownforceBias=0.2             // bias between setup and hard-coded value (0.0-1.0)
+AITorqueStab=(0.85, 0.85, 0.40)    // torque adjustment to keep AI stable
+FeelerFlags=15 // how collision feelers are generated (add): 1=box influence 2=reduce wall-jumping 4=allow adjustment hack 8=top directions
+FeelerOffset=(0.0, 0.0, 0.0) // offset from cg to use when generating feelers
+FeelersAtCGHeight=0 // whether corner and side feelers are automatically adjusted to CG height
+FeelerFrontLeft=(0.855,0.200,-1.999) // front-left corner collision feeler
+FeelerFrontRight=(-0.855,0.200,-1.999) // front-right corner collision feeler
+FeelerRearLeft=(0.925,0.200,2.082) // rear-left corner collision feeler
+FeelerRearRight=(-0.925,0.200,2.082) // rear-right corner collision feeler
+FeelerFront=(0.0,0.250,-2.236) // front side collision feeler
+FeelerRear=(0.0,0.200,2.112) // rear side collision feeler
+FeelerRight=(-0.982,0.400,0.000) // right side collision feeler
+FeelerLeft=(0.982,0.400,0.000) // left side collision feeler
+FeelerTopFrontLeft=(-0.207,0.925,0.440) // top front-left collision feeler
+FeelerTopFrontRight=(0.207,0.925,-0.440) // top front-right collision feeler
+FeelerTopRearLeft=(-0.985,0.843,2.240) // top rear-left collision feeler
+FeelerTopRearRight=(0.950,0.843,2.240) // top rear-right collision feeler
+FeelerBottom=(0.000,0.025,0.000) // bottom feeler          // bottom feeler
+FlatspotHeadShake=0.02  
+FlatspotForceFeedback=0.0003 
+FlatspotMaximumRPS=50
+//FlatspotFFBSpeedFactor=1.0 
+
+[PITMENU]
+StopGo=1                                // whether stop/go pit menu item is available (highly recommended); default=1
+Fuel=1                                  // whether fuel pit menu item is available (recommended); default=1
+AllTires=1                              // option for changing all tires (all other tire choices should be 0); default=0
+FrontRearTires=(0,0)                    // option for changing front tires,rear tires (all other conflicting tire choices should be 0); default=(0,0)
+LeftRightTires=(0,0)                    // option for changing left tires,right tires (all other conflicting tire choices should be 0); default=(0,0)
+IndividualTires=(0,0,0,0)               // option for changing individual tire FL,FR,RL,RR (all other conflicting tire choices should be 0); default=(0,0,0,0)
+SingleTireTime=7                       // Time it takes to change a single tire during pitstop - must add this value otherwise previous tire change timings are bugged.
+FenderFlare=(0,0)                       // options for changing left fender flare,right fender flare; default=(0,0)
+FrontWing=1                             // front wing adjustment (front wing repair is covered under Damage); default=1
+RearWing=1                              // rear wing adjustment (rear wing repair is covered under Damage); default=0
+Driver=1                                // driver change; default=1
+Wedge=0                                 // wedge adjustment; default=0
+Radiator=1                              // radiator or grille tape adjustment; default=0
+TrackBar=0                              // track bar adjustment; default=0
+Pressure=(1,1,1,1)                      // tire pressure adjustment FL,FR,RL,RR; default=(0,0,0,0)
+SpringRubber=(0,0,0,0)                  // spring rubber adjustment FL,FR,RL,RR; default=(0,0,0,0)
+Damage=2                                // number of options to fix damage (0=none,1=bodywork,2=bodywork+suspension); default=1
+StopGoSimultaneous=0                    // whether stop/go penalties can be served during a regular pit stop (time is added at end); default=0
+PressureOnTheFly=0                      // whether tire pressures can be adjusted WITHOUT changing tires; default=0
+DamagedTiresOnly=0                      // tire change restrictions: 0=any tire can be changed 1=only damaged tires can be changed; default=0
+CompoundRestrictions=2                  // whether tire compounds have restrictions: 0=unrestricted 1=one dry compound from qualifying on,2=front/rear compounds must match,3=both; default=0
+Preparation=(120.0,25.0,0.5,4.5)        // when crew gives up after request,crew prep time,delay multiplier for how much more time was needed to prep,max delay; default=(150.0,25.0,0.5,4.5)
+FuelTime=(3.4,0.0,1.0,0.5,1.0)          // fuel fill rate (L/s),random delay,nozzle insertion time,nozzle removal time,concurrent fuel filling (0.0=separate,1.0=concurrent); default=(12.0,2.0,1.0,0.5,1.0)
+TireTime=(12.0,20.0,0.0,0.0)            // time to change two tires,time to change four tires,random delay on any tire,concurrent tire changes (0.0=separate,1.0=concurrent); default=(5.5,5.5,2.0,1.0)
+FenderFlareTime=4.5                     // time to adjust fender flare; default=3.5
+FrontWingTime=(10.0,30.0)               // time to adjust front wing,time to replace front wing; default=(8.0,8.0)
+RearWingTime=(10.0,30.0)                // time to adjust rear wing,time to replace rear wing; default=(8.0,33.0)
+DriverTime=(0.0,0.0,0.0,0.0)           // time to change driver,random delay,extra delay if vehicle is damaged,concurrent driver changes (0.0=separate,1.0=concurrent); default=(11.0,1.5,4.0,1.0)
+WedgeTime=3.5                           // time to adjust wedge; default=3.5
+RadiatorTime=15.0                        // time to adjust radiator/grille tape; default=5.0
+TrackBarTime=3.5                        // time to adjust track bar; default=3.5
+PressureTime=3.0                        // time to adjust tire pressure WITHOUT changing tire; default=2.5
+SpringRubberTime=3.0                    // time to adjust spring rubber; default=3.0
+DamageTime=(10.0,0.0,90.0,1.0)         // time to fix aero damage,random delay,fix suspension including broken off wheels,concurrent damage fixing (0.0=separate,1.0=concurrent); default=(8.5,1.0,90.0,1.0)
+
+[FRONTWING]
+FWRange=(0.0, 1.0, 4)          // front wing range
+FWSetting=2                    // front wing setting
+FWMaxHeight=(0.26)              // maximum height to take account of for downforce
+FWDragParams=(0.067, 0.008, -0.001)   // base drag and 1st and 2nd order with setting
+FWLiftParams=(-0.330, -0.140,  0.0015) // base lift and 1st and 2nd order with setting
+FWDraftLiftMult=1.02
+FWLiftHeight=(0.6)            // effect of current height on lift coefficient
+FWLiftSideways=(1.0)           // dropoff in downforce with yaw (0.0 = none, 1.0 = max)
+FWPeakYaw=(0.0, 1.0)            // angle of peak, multiplier at peak
+FWLeft=(-0.007, 0.0, 0.0)        // aero forces from moving left
+FWRight=(0.007, 0.0, 0.0)        // aero forces from moving right
+FWUp=(0.0, -0.05, -0.001)       // aero forces from moving up
+FWDown=(0.0, 0.05, 0.001)       // aero forces from moving down
+FWAft=(0.0, 0.03, -0.03)        // aero forces from moving rearwards
+FWFore=(0.0, 0.0, 0.0)          // aero forces from moving forwards (recomputed from settings)
+FWRot=(0.05, 0.03, 0.9)        // aero torque from rotating
+FWCenter=(0.00, -0.1, -0.68)    // center of front wing forces (offset from center of front axle in ref plane)
+
+[REARWING]
+RWRange=(0.0, 1.0, 24)          // rear wing range
+RWSetting=17                    // rear wing setting
+RWDragParams=(0.067, 0.0065,  0.00007)        // base drag and 1st and 2nd order with setting
+RWLiftParams=(-0.305, -0.0265,  0.0000) // base lift and 1st and 2nd order with setting
+RWDraftLiftMult=1.00
+RWLiftSideways=(1.0)           // dropoff in downforce with yaw (0.0 = none, 1.0 = max)
+RWPeakYaw=(0.0, 1.0)            // angle of peak, multiplier at peak
+RWLeft=(-0.02, 0.0, 0.0)        // aero forces from moving left
+RWRight=(0.02, 0.0, 0.0)        // aero forces from moving right
+RWUp=(0.0, -0.05, -0.002)       // aero forces from moving up
+RWDown=(0.0, 0.05, 0.002)       // aero forces from moving down
+RWAft=(0.0, 0.04, -0.04)        // aero forces from moving rearwards
+RWFore=(0.0, 0.0, 0.0)          // aero forces from moving forwards (recomputed from settings)
+RWRot=(0.08, 0.05, 0.12)        // aero torque from rotating
+RWCenter=(0.00, 0.50, 0.56)     // center of rear wing forces (offset from center of rear axle at ref plane)
+
+[BODYAERO]
+BodyDragBase=(0.327)           // base drag
+BodyDragHeightAvg=(0.600)       // drag increase with average ride height
+BodyDragHeightDiff=(0.240)      // drag increase with front/rear ride height difference
+BodyMaxHeight=(0.20)            // maximum ride height that affects drag/lift
+DraftBalanceMult=0           // effect of draft on aerodynamic downforce balance of car (bigger numbers exaggerate the effect)
+BodyDraftLiftMult=1.00          // effect of draft on body's lift response
+BodyLeft=(-0.7, 0.03, 0.0)       // aero forces from moving left
+BodyRight=(0.7, 0.03, 0.0)       // aero forces from moving right
+BodyUp=(0.0, -1.5, 0.0)         // aero forces from moving up
+BodyDown=(0.0, 1.5, 0.0)        // aero forces from moving down
+BodyAft=(0.0, 0.10, -1.00)      // aero forces from moving rearwards
+BodyFore=(0.0, -0.305, 0.350)  // aero forces from moving forwards (lift value important, but drag overwritten)
+BodyRot=(2.5, 1.85, 1.25)         // aero torque from rotating
+BodyCenter=(0.0, 0.150, -1.148) // center of body aero forces (offset from center of rear axle at ref plane)
+RadiatorRange=(0.0, 1.0, 5)     // radiator range (front grille tape)
+RadiatorSetting=2               // radiator setting
+RadiatorDrag=(0.003)           // Effect of radiator setting on drag 
+RadiatorLift=(0.000)
+BrakeDuctRange=(0.0, 1.0, 6)    // brake duct range
+BrakeDuctSetting=3              // brake duct setting
+BrakeDuctDrag=(0.003)           // effect of brake duct setting on drag
+BrakeDuctLift=(0.0)           // effect of brake duct setting on lift
+BaseDropoff=0.100               // RFM Drafting override: Higher number -> more drafting effect (default=0.185)
+LeadingExponent=6.6            // RFM Drafting override: Higher number -> lower effect on leader (default=2.0)
+FollowingExponent=2.2          // RFM Drafting override: Higher number -> lower effect on followers (default=2.0)
+VehicleWidth=1.980               // RFM Drafting override: Helps determine base width of wake (default=1.9)
+SideEffect=0.35                 // RFM Drafting override: Negative effects of side-by-side drafting (default=0.35, used to be ~3.0 which was way too strong!)
+SideLeadingExponent=2.0         // RFM Drafting override: Added to regular LeadingExponent to affect the side wake
+SideFollowingExponent=2.5       // RFM Drafting override: Added to regular FollowingExponent to affect the side wake
+
+
+[DIFFUSER]
+DiffuserBase=(-0.646, -4.8, 68)
+DiffuserFrontHeight=(1.8)        // 1st order with front ride height
+DiffuserDraftLiftMult=1.02
+DiffuserSideways=(1.0)            // dropoff with yaw (0.0 = none, 1.0 = max)
+DiffuserCenter=(0.0, -0.02, -1.064)
+
+
+[SUSPENSION]
+PhysicalModelFile=Lola_B12.pm
+CorrectedInnerSuspHeight=-1.0          // instead of moving inner susp height relative with ride height, use this offset (set to -1 for original behavior)
+ApplySlowToFastDampers=0         // whether to apply slow damper settings to fast damper settings
+AdjustSuspRates=1                // adjust suspension rates due to motion ratio
+FrontWheelTrack=0.0           // if non-zero, forces the front wheels to be specified track width
+RearWheelTrack=0.0            // if non-zero, forces the rear wheels to be specified track width
+LeftWheelBase=0.0                // if non-zero,forces the left side to use specified wheelbase
+RightWheelBase=0.0              // if non-zero,forces the right side to use specified wheelbase
+SpringBasedAntiSway=1            // 0=diameter-based, 1=spring-based
+AllowNoAntiSway=0                // Whether first setting gets overridden to mean no antisway bar
+FrontAntiSwayBase=392400
+FrontAntiSwayRange=(539550.0, 224812.0, 7) 
+FrontAntiSwaySetting=3
+RearAntiSwayBase=27468   
+RearAntiSwayRange=(0.0, 17165, 7)
+RearAntiSwaySetting=3
+FrontToeInRange=(-0.3, 0.05, 7)
+FrontToeInSetting=4
+RearToeInRange=(0.0, 0.05, 7)
+RearToeInSetting=2
+LeftCasterRange=(6.0, 0.5, 7)       // front-left caster
+LeftCasterSetting=3
+RightCasterRange=(6.0, 0.5, 7)      // front-right caster
+RightCasterSetting=3
+//THIRD SPRING
+Front3rdBumpTravel=-0.005           // Travel to bumpstop with zero packers and zero ride height (5mm compression)
+Front3rdReboundTravel=-0.065        // Prevents rebound travel (for example, when upside down), 55mm max front ride height plus 10mm leeway
+Front3rdBumpStopSpring=150000.0     // Initial spring rate of bumpstop
+Front3rdBumpStopRisingSpring=7.00e6 // Rising spring rate of bumpstop (multiplied by deflection squared)
+Front3rdBumpStopDamper=2400.0       // Initial damping rate of bumpstop
+Front3rdBumpStopRisingDamper=7.00e5 // Rising damper rate of bumpstop (multiplied by deflection squared)
+Front3rdBumpStage2=0.060            // Speed where damper bump moves from slow to fast
+Front3rdReboundStage2=-0.060        // Speed where damper rebound moves from slow to fast
+Front3rdPackerRange=(0.000, 0.00, 0)
+Front3rdPackerSetting=0
+Front3rdSpringRange=(80000.0, 0.0, 0)
+Front3rdSpringSetting=0
+Front3rdSlowBumpRange=(1600.0, 0.0, 0)
+Front3rdSlowBumpSetting=0
+Front3rdFastBumpRange=(1000.0, 0.0, 0)
+Front3rdFastBumpSetting=0
+Front3rdSlowReboundRange=(3200.0, 0.0, 0)
+Front3rdSlowReboundSetting=0
+Front3rdFastReboundRange=(2000.0, 0.0, 0)
+Front3rdFastReboundSetting=0
+Rear3rdBumpTravel=-0.005            // Travel to bumpstop with zero packers and zero ride height (10mm compression)
+Rear3rdReboundTravel=-0.065         // Prevents rebound travel (for example, when upside-down), 80mm max rear ride height plus 10mm leeway
+Rear3rdBumpStopSpring=150000.0      // Initial spring rate of bumpstop
+Rear3rdBumpStopRisingSpring=7.00e6  // Rising spring rate of bumpstop (multiplied by deflection squared)
+Rear3rdBumpStopDamper=2400.0        // Initial damping rate of bumpstop
+Rear3rdBumpStopRisingDamper=7.00e5  // Rising damper rate of bumpstop (multiplied by deflection squared)
+Rear3rdBumpStage2=0.060             // Speed where damper bump moves from slow to fast
+Rear3rdReboundStage2=-0.060         // Speed where damper rebound moves from slow to fast
+Rear3rdPackerRange=(0.000, 0.00, 0)
+Rear3rdPackerSetting=0
+Rear3rdSpringRange=(100000.0, 0.0, 0)
+Rear3rdSpringSetting=0
+Rear3rdSlowBumpRange=(1800.0, 0.0, 0)
+Rear3rdSlowBumpSetting=0
+Rear3rdFastBumpRange=(1200.0, 0.0, 0)
+Rear3rdFastBumpSetting=0
+Rear3rdSlowReboundRange=(3600.0, 0.0, 0)
+Rear3rdSlowReboundSetting=0
+Rear3rdFastReboundRange=(2400.0, 0.0, 0)
+Rear3rdFastReboundSetting=0
+
+[CONTROLS]
+SteeringFFBMult=0.0                 // vehicle-specific force feedback strength multiplier
+PneumaticTrailGripFractPower=2.5
+LowFFBmultiplier=0.15
+LowFFBdeadzone=2.0                 // vehicle-specific force feedback strength multiplier
+SteerLockRange=(10.0,0.5,71)
+SteerLockSetting=8
+SteerLockUserSetting=4 // Default steering lock setting (applied when CUSTOM USER ROTATION is set to YES);
+SteeringRotation=(360, 10.0, 36) // Rotation settings (when CUSTOM USER ROTATION is set to NO) in degrees - minimum rotation, increment per setting, number of settings - so in this case minimum rotation is 360º, each increment adds 10º, and there are 10 settings (ranges from 360 to 450º)
+SteeringRotationSetting=0 // Default setting for the car (0 means default is 360º)
+RearBrakeRange=(0.300,0.005,71)
+RearBrakeSetting=24
+BrakePressureRange=(0.70,0.01,31)
+BrakePressureSetting=20
+UpshiftAlgorithm=(0.975,0.0)       
+DownshiftAlgorithm=(0.91,0.70,0.60)
+HandbrakePressRange=(0.00,0.05,1) // disabled for F1 ... intended for rally-type cars
+HandbrakePressSetting=0
+AutoUpshiftGripThresh=0.63          // auto upshift waits until all driven wheels have this much grip (reasonable range: 0.4-0.9)
+AutoDownshiftGripThresh=0.63        // auto downshift waits until all driven wheels have this much grip (reasonable range: 0.4-0.9)
+TractionControlGrip=(1.00,0.20)    // average driven wheel grip multiplied by 1st number,then added to 2nd
+TractionControlLevel=(0.30,0.90)   // effect of grip on throttle for low TC and high TC
+ABS4Wheel=1                         // 0 = old-style single brake pulse,1 = more effective 4-wheel ABS
+ABSGrip=(1.00,0.20)                // grip multiplied by 1st number and added to 2nd
+ABSLevel=(0.30,0.70)               // effect of grip on brakes for low ABS and high ABS
+OnboardBrakeBias=1                 // Whether brake bias is allowed onboard
+
+[ENGINE]
+Normal=Mazda_2.2L.ini
+RestrictorPlate=Mazda_2.2L.ini
+
+[DRIVELINE]
+ClutchEngageRate=1.0          //Auto clutch gradual engagement rate from neutral to 1st gear.
+ClutchInertia=0.0094
+ClutchTorque=800.0
+ClutchWear=0.0
+ClutchFriction=8.50
+BaulkTorque=750.0
+SemiAutomatic=1                     // whether throttle and clutch are operated automatically
+UpshiftDelay=0.060                  // delay in selecting higher gear (low for semi-automatic, higher for manual)
+UpshiftClutchTime=0.00             // time to ease auto-clutch in AFTER upshift (0.0 for F1 cars)
+DownshiftDelay=0.100               // delay in selecting lower gear (low for semi-automatic, higher for manual)
+DownshiftClutchTime=0.00           // time to ease auto-clutch in AFTER downshift (used to be SemiAutoClutchTime, note that the shift will complete significantly before the clutch is fully engaged)
+DownshiftBlipThrottle=0.46          // amount of throttle used to blip if controlled by game (instead of player)
+WheelDrive=REAR                      // which wheels are driven: REAR, FOUR (even torque split), or FRONT
+DownshiftProtection=1.1
+AdvancedTransmission=1
+Sequential=1
+AutoLift=0
+UpshiftRPMDifference=9600
+DownshiftRPMDifference=5000
+AdvancedUpshiftDelay=0.08
+AdvancedDownshiftDelay=0.12
+GearFile=Lola_6Speed.ini      // must come before final/reverse/gear settings!
+FinalDriveSetting=0                 // indexed into GearFile list
+ReverseSetting=0
+ForwardGears=6
+Gear1Setting=3
+Gear2Setting=10
+Gear3Setting=15
+Gear4Setting=21
+Gear5Setting=29
+Gear6Setting=38
+DiffPumpTorque=0.0               // at 100% pump diff setting, the torque redirected per wheelspeed difference in radians/sec (roughly 1.2kph)
+DiffPumpRange=(0.00, 0.0, 0)
+DiffPumpSetting=0
+DiffPowerRange=(0.3,0.1,6)        // fraction of power-side input torque transferred through diff
+DiffPowerSetting=3                 // (not implemented for four-wheel drive)
+DiffCoastRange=(0.3,0.1,6)        // fraction of coast-side input torque transferred through diff
+DiffCoastSetting=1                // (not implemented for four-wheel drive)
+DiffPreloadRange=(80.0, 20.0, 4)     // preload torque that must be overcome to have wheelspeed difference
+DiffPreloadSetting=1              // (not implemented for four-wheel drive)
+
+[FRONTLEFT]
+BumpTravel=-0.002                   // suspension travel upwards, travel to bumpstop with zero packers and zero ride height
+ReboundTravel=-0.070                // suspension travel downwards, these two numbers assume front ride height is 30cm to 90cm with 10cm leeway
+BumpStopSpring=760000.0             // initial spring rate of bumpstop
+BumpStopRisingSpring=1.20e7         // rising spring rate of same (multiplied by deflection squared)
+BumpStopDamper=20000.0               // initial damping rate of bumpstop
+BumpStopRisingDamper=9.00e5         // rising damper rate of same (multiplied by deflection squared)
+BumpStage2=0.090                    // speed where damper bump moves from slow to fast
+ReboundStage2=-0.090                // speed where damper rebound moves from slow to fast
+FrictionTorque=4.0                 // Newton-meters of friction between spindle and wheel
+SpinInertia=1.250                  // inertia in pitch direction including any axle
+PushrodSpindle=(-0.100, -0.113, 0.000) // spring/damper connection to spindle or axle (relative to wheel center)
+PushrodBody=(-0.662, 0.195, 0.000)// Spring/damper connection to body (relative to wheel center)
+CamberRange=(-3.5, 0.1, 16)
+CamberSetting=3
+PressureRange=(150.0, 1.0, 41)
+PressureSetting=20
+RideHeightRange=(0.020, 0.001, 17)
+RideHeightSetting=8
+PackerRange=(0.000, 0.001, 23)
+PackerSetting=6
+SpringMult=0.90                     // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(192720.0, 17520.0, 6)
+SpringSetting=3
+DamperMult=0.90                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(6000.0, 300.0, 8)
+SlowBumpSetting=2
+FastBumpRange=(3000.0, 150.0, 8)
+FastBumpSetting=2
+SlowReboundRange=(11200.0, 600.0, 8)
+SlowReboundSetting=2
+FastReboundRange=(5600.0, 300.0, 8)
+FastReboundSetting=2
+BrakeDiscRange=(0.035, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.640              // inertia per meter of thickness
+BrakeResponseCurve=(-300,350,950,1550)               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=2.5e-13             // meters of wear per second at optimum temperature
+BrakeFailure=(2.7e-002,15.0e-04)  // average and variation in disc thickness at failure
+BrakeTorque=3200.00                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00086                 // heat added linearly with brake torque
+BrakeCooling=(1.90e-002,0.86e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=0.62e-004         // brake cooling rate per brake duct setting
+
+[FRONTRIGHT]
+BumpTravel=-0.002                   // suspension travel upwards, travel to bumpstop with zero packers and zero ride height
+ReboundTravel=-0.070                // suspension travel downwards, these two numbers assume front ride height is 30cm to 90cm with 10cm leeway
+BumpStopSpring=760000.0             // initial spring rate of bumpstop
+BumpStopRisingSpring=1.20e7         // rising spring rate of same (multiplied by deflection squared)
+BumpStopDamper=20000.0               // initial damping rate of bumpstop
+BumpStopRisingDamper=9.00e5         // rising damper rate of same (multiplied by deflection squared)
+BumpStage2=0.090                    // speed where damper bump moves from slow to fast
+ReboundStage2=-0.090                // speed where damper rebound moves from slow to fast
+FrictionTorque=4.0                 // Newton-meters of friction between spindle and wheel
+SpinInertia=1.250                  // inertia in pitch direction including any axle
+PushrodSpindle=(0.100, -0.113, 0.000) // spring/damper connection to spindle or axle (relative to wheel center)
+PushrodBody=(0.662, 0.195, 0.000) // Spring/damper connection to body (relative to wheel center)
+CamberRange=(-3.5, 0.1, 16)
+CamberSetting=3
+PressureRange=(150.0, 1.0, 41)
+PressureSetting=20
+RideHeightRange=(0.020, 0.001, 17)
+RideHeightSetting=8
+PackerRange=(0.000, 0.001, 23)
+PackerSetting=6
+SpringMult=0.90                     // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(192720.0, 17520.0, 6)
+SpringSetting=3
+DamperMult=0.90                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(6000.0, 300.0, 8)
+SlowBumpSetting=2
+FastBumpRange=(3000.0, 150.0, 8)
+FastBumpSetting=2
+SlowReboundRange=(11200.0, 600.0, 8)
+SlowReboundSetting=2
+FastReboundRange=(5600.0, 300.0, 8)
+FastReboundSetting=2
+BrakeDiscRange=(0.035, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.640              // inertia per meter of thickness
+BrakeResponseCurve=(-300,350,950,1550)               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=2.5e-13             // meters of wear per second at optimum temperature
+BrakeFailure=(2.7e-002,15.0e-04)  // average and variation in disc thickness at failure
+BrakeTorque=3200.00                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00086                 // heat added linearly with brake torque
+BrakeCooling=(1.90e-002,0.86e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=0.62e-004            // brake cooling rate per brake duct setting
+
+[REARLEFT]
+BumpTravel=-0.004                   // suspension travel upwards
+ReboundTravel=-0.080                // suspension travel downwards
+BumpStopSpring=760000.0             // initial spring rate of bumpstop
+BumpStopRisingSpring=1.20e7         // rising spring rate of same (multiplied by deflection squared)
+BumpStopDamper=20000.0               // initial damping rate of bumpstop
+BumpStopRisingDamper=9.00e5         // rising damper rate of same (multiplied by deflection squared)
+BumpStage2=0.090                    // speed where damper bump moves from slow to fast
+ReboundStage2=-0.090                // speed where damper rebound moves from slow to fast
+FrictionTorque=4.0                 // Newton-meters of friction between spindle and wheel
+SpinInertia=1.275                   // inertia in pitch direction including any axle
+PushrodSpindle=(-0.100, -0.080, 0.000) // spring/damper connection to spindle or axle (relative to wheel center)
+PushrodBody=(-0.649, 0.188, -0.100) // Spring/damper connection to body (relative to wheel center)
+CamberRange=(-2.5, 0.1, 16)
+CamberSetting=3
+PressureRange=(140.0, 1.0, 41)
+PressureSetting=20
+RideHeightRange=(0.034, 0.001, 27)
+RideHeightSetting=8
+PackerRange=(0.000, 0.001, 33)
+PackerSetting=10
+SpringMult=0.90                     // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(192720.0, 17520.0, 6)
+SpringSetting=3
+DamperMult=0.90                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(6000.0, 300.0, 8)
+SlowBumpSetting=2
+FastBumpRange=(3000.0, 150.0, 8)
+FastBumpSetting=2
+SlowReboundRange=(11200.0, 600.0, 8)
+SlowReboundSetting=2
+FastReboundRange=(5600.0, 300.0, 8)
+FastReboundSetting=2
+BrakeDiscRange=(0.032, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.605              // inertia per meter of thickness
+BrakeResponseCurve=(-300,350,950,1550)               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=2.5e-13             // meters of wear per second at optimum temperature
+BrakeFailure=(2.6e-002,15.0e-04)   // average and variation in disc thickness at failure
+BrakeTorque=2960.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00102                // heat added linearly with brake torque
+BrakeCooling=(1.90e-002,0.72e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=0.54e-004         // brake cooling rate per brake duct setting
+
+[REARRIGHT]
+BumpTravel=-0.004                   // suspension travel upwards
+ReboundTravel=-0.080                // suspension travel downwards
+BumpStopSpring=760000.0             // initial spring rate of bumpstop
+BumpStopRisingSpring=1.20e7         // rising spring rate of same (multiplied by deflection squared)
+BumpStopDamper=20000.0               // initial damping rate of bumpstop
+BumpStopRisingDamper=9.00e5         // rising damper rate of same (multiplied by deflection squared)
+BumpStage2=0.090                    // speed where damper bump moves from slow to fast
+ReboundStage2=-0.090                // speed where damper rebound moves from slow to fast
+FrictionTorque=4.0                 // Newton-meters of friction between spindle and wheel
+SpinInertia=1.275                   // inertia in pitch direction including any axle
+PushrodSpindle=(0.100, -0.080, 0.000) // spring/damper connection to spindle or axle (relative to wheel center)
+PushrodBody=(0.649, 0.188, -0.100)  // Spring/damper connection to body (relative to wheel center)
+CamberRange=(-2.5, 0.1, 16)
+CamberSetting=3
+PressureRange=(140.0, 1.0, 41)
+PressureSetting=20
+RideHeightRange=(0.034, 0.001, 27)
+RideHeightSetting=8
+PackerRange=(0.000, 0.001, 33)
+PackerSetting=10
+SpringMult=0.90                     // take into account suspension motion if spring is not attached to spindle (affects physics but not garage display)
+SpringRange=(192720.0, 17520.0, 6)
+SpringSetting=3
+DamperMult=0.90                     // take into account suspension motion if damper is not attached to spindle (affects physics but not garage display)
+SlowBumpRange=(6000.0, 300.0, 8)
+SlowBumpSetting=2
+FastBumpRange=(3000.0, 150.0, 8)
+FastBumpSetting=2
+SlowReboundRange=(11200.0, 600.0, 8)
+SlowReboundSetting=2
+FastReboundRange=(5600.0, 300.0, 8)
+FastReboundSetting=2
+BrakeDiscRange=(0.032, 0.000, 0)    // disc thickness
+BrakeDiscSetting=0
+BrakePadRange=(0, 1, 5)             // pad type (not implemented)
+BrakePadSetting=2
+BrakeDiscInertia=0.605              // inertia per meter of thickness
+BrakeResponseCurve=(-300,350,950,1550)               // temperature outside of optimum that brake grip drops to half (too hot or too cold)
+BrakeWearRate=2.5e-13             // meters of wear per second at optimum temperature
+BrakeFailure=(2.6e-002,15.0e-04)   // average and variation in disc thickness at failure
+BrakeTorque=2960.0                  // maximum brake torque at zero wear and optimum temp
+BrakeHeating=0.00102                 // heat added linearly with brake torque
+BrakeCooling=(1.90e-002,0.72e-004)  // minimum brake cooling rate (static and per unit velocity)
+BrakeDuctCooling=0.54e-004       // brake cooling rate per brake duct setting

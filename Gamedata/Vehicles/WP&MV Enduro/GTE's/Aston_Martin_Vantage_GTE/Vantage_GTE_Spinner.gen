@@ -1,0 +1,171 @@
+ SearchPath=<TEAMDIR>..\
+ SearchPath=<TEAMDIR>
+ SearchPath=<VEHDIR>
+ SearchPath=<VEHDIR>\WP&MV Enduro\GTE's\Aston_Martin_Vantage_GTE
+ MASFile=WP&MV Enduro\GTE's\Aston_Martin_Vantage_GTE\Vantage_GTE.mas
+ MASFile=WP&MV Enduro\GTE's\Aston_Martin_Vantage_GTE\Vantage_GTE_Cpit.mas
+ MASFile=WP&MV Enduro\GTE's\Aston_Martin_Vantage_GTE\Vantage_GTE_Lights.mas
+ MASFile=WP&MV Enduro\GTE's\Aston_Martin_Vantage_GTE\Vantage_GTE_Tex.mas
+ MASFile=WP&MV Enduro\MVWPMAPS.mas
+
+
+ ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+ Moveable=True
+ MeshFile=Vantage_GTE_CHASSIS_LODA.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(60.0) Reflect=True
+ MeshFile=Vantage_GTE_INTERIOR_LODA.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(60.0) Reflect=True
+ MeshFile=Vantage_GTE_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=Vantage_GTE_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ 
+ Actor=VEHICLE
+
+ Instance=WHEELEXT
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_SWHEEL_EXT.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(30.00) Reflect=True
+ }
+ 
+ Instance=SEAT
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_SEAT.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) Reflect=True
+ }
+ 
+//----------------------------------------= DAMAGE =----------------------------------------\\
+
+// Instance=DETAILEDENGINE
+// {
+// Moveable=True
+// MeshFile=Vantage_GTE_DETAILEDENGINE.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(25.0)
+// }
+ 
+//----------------------------------------= WINGS =----------------------------------------\\
+ 
+ Instance=FWING // FRONT BUMPER
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_BUMPER_F_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=RWING 
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_WING_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+//----------------------------------------= ADDITIONAL DETACHABLES =----------------------------------------\\
+ 
+ Instance=DEBRIS0 // LIGHT LF
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_LIGHTGLASS_LF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=DEBRIS1 // LIGHT RF
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_LIGHTGLASS_RF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True 
+ }
+
+// Instance=DEBRIS2 // LIGHT LR
+// {
+// Moveable=True
+// MeshFile=Vantage_GTE_LIGHTGLASS_LR.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// }
+
+// Instance=DEBRIS3 // LIGHT RR
+// {
+// Moveable=True
+// MeshFile=Vantage_GTE_LIGHTGLASS_RR.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// }
+
+ Instance=DEBRIS4 // REAR BUMPER
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_BUMPER_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=DEBRIS5 // HOOD
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_HOOD_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+// Instance=DEBRIS6 // LWINGLET
+// {
+// Moveable=True
+// MeshFile=Vantage_GTE_WINGLET_LF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// }
+ 
+// Instance=DEBRIS7 // RWINGLET
+// {
+// Moveable=True
+// MeshFile=Vantage_GTE_WINGLET_RF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+// }
+
+//----------------------------------------= WHEELS =----------------------------------------\\
+
+ Instance=LFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_DISK_LF.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_CALIPER_LF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=RFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_DISK_RF.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_CALIPER_RF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=LRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_DISK_LR.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_CALIPER_LR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+ 
+//---------
+
+ Instance=RRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Vantage_GTE_DISK_RR.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Vantage_GTE_CALIPER_RR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+}

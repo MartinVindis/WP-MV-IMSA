@@ -1,0 +1,5 @@
+// Genstring legend 
+
+// 1 - Rim (1 - OZ Black - Paintable, 2 - BBS Black - Paintable)
+
+// 23 - Tyre (C2 - Continental, D3 - Dunlop, M3 - Michelin)

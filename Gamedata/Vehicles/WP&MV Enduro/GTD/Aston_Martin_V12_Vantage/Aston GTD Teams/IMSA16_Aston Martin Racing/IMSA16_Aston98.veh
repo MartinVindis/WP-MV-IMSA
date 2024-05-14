@@ -1,0 +1,35 @@
+DefaultLivery="IMSA16_Aston98.dds"
+
+HDVehicle=AM_V12Vantage.hdv
+Graphics=AM_V12Vantage_Lights_1.gen
+Spinner=AM_V12Vantage_Spinner_Lights_1.gen
+Cameras=AM_V12Vantage.cam
+GenString=1C221010O
+Sounds=AM_V12Vantage.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=AM_V12Vantage_Cpit.ini
+Upgrades=AM_V12Vantage_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=98
+Team="Aston Martin Racing #98"
+PitGroup="Group1"
+Driver1="Paul Dalla Lana"
+Description="Aston Martin DBRS9 #98"
+Engine="Aston Martin 6.0L V12"
+Manufacturer="Prodrive"
+Transmission="XTrac 6-speed sequential"
+Extra="front engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="Aston Martin Racing #98"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTD"

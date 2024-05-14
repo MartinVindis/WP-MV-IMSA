@@ -1,0 +1,35 @@
+DefaultLivery="SRT_ViperGTLM2.dds"
+
+HDVehicle=SRT_ViperGTE.hdv
+Graphics=SRT_ViperGT3R_Lights_A.gen
+Spinner=SRT_ViperGT3R_Spinner_Lights_A.gen
+Cameras=SRT_ViperGT3R.cam
+GenString=2M3XX020C
+Sounds=SRT_ViperGT3R.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=SRT_ViperGT3R_Cpit.ini
+Upgrades=SRT_ViperGT3R_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=33
+Team="SRT Motorsports #2"
+PitGroup="Group20"
+Driver1="Ryan Hunter-Reay"
+Description="SRT Viper GTE"
+Engine="SRT 8.4L V10"
+Manufacturer="SRT"
+Transmission="XTrac 6-speed sequential"
+Extra="front engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="SRT Motorsports #2"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTLM"

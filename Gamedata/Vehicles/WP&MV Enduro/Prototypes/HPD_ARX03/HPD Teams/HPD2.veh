@@ -1,0 +1,34 @@
+DefaultLivery="HPD2.dds"
+
+HDVehicle=HPD_ARX03.hdv
+Graphics=HPD_ARX03.gen
+Spinner=HPD_ARX03_Spinner.gen
+GenString=2C2O
+Sounds=HPD_V6.sfx                  // Sounds=default.sfx
+Cameras=HPD_ARX03.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=MVWP_HeadPhysics.ini         // Affects driver eyepoint only
+Cockpit=HPD_ARX03_Cpit.ini
+Upgrades=HPD_ARX03_Upgrades.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=3
+Team="Team Honda #2"
+PitGroup="Group2"
+Driver="Ryan Dalziel"
+Description="HPD ARX-03b P2"
+Engine="Honda HR28TT 3L V6 TwinTurbo"
+Manufacturer="HPD"
+Transmission="6-speed sequential"
+Extra="mid engine, rear wheel drive" 
+Classes="Wilson-VindisP"
+
+FullTeamName="Team Honda #2"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisP, Prototype"

@@ -1,0 +1,7 @@
+// Genstring legend 
+
+// 1 - Rim (1 - Silver, 2 - Black - Paintable)
+
+// 23 - Tyre (C2 - Continental, D3 - Dunlop, F1 - Falken, M3 - Michelin)
+
+// 4 - Driver Helmet (C - Closed Visor, O - Open Visor)

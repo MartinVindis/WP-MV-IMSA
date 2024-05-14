@@ -1,0 +1,34 @@
+DefaultLivery="IMSA16_Audi9.dds"
+Extra0="Badges"
+
+HDVehicle=Audi_R8LMS15.hdv
+Graphics=Audi_R8LMS15_Lights_A.gen
+Spinner=Audi_R8LMS15_Spinner_Lights_A.gen
+Cameras=Audi_R8LMS15.cam
+GenString=2C2X00X0O
+Sounds=Audi_R8LMS15.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=Audi_R8LMS15_Cpit.ini
+Upgrades=Audi_R8LMS15_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=9
+Team="Stevenson Motorsports #9"
+PitGroup="Group2"
+Driver1="Lawson Aschenbach"
+Description="Audi R8 LMS #9"
+Engine="Audi 5.2L V10"
+Manufacturer="Audi"
+Classes="Wilson-VindisGT"
+
+FullTeamName="Stevenson Motorsports #9"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTD"

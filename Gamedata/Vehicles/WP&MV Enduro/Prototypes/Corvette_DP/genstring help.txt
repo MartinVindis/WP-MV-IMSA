@@ -1,0 +1,10 @@
+// Genstring legend 
+
+// 1 - Rim (1 - BBS Silver, 2 - BBS Black - Paintable)
+
+// 23 - Tyre (C2 - Continental, D3 - Dunlop, M3 - Michelin)
+
+// 4 - Driver Helmet (C - Closed Visor, O - Open Visor)
+
+Different Chassis for Coyote or Dallara isnt a genstring option, at the .veh file you have to link the right .gen files! Coyote_DP.gen/Coyote_DP_Spinner.gen or Dallara_DP.gen/Dallara_DP_Spinner.gen
+Also be sure you add the right ini file for the cockpit cams! inside the .veh file change to Coyote_DP_Cpit.ini or Coyote_DP_Cpit.ini

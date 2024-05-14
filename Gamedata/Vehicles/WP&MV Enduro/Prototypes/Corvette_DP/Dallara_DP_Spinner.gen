@@ -1,0 +1,152 @@
+ SearchPath=<TEAMDIR>..\
+ SearchPath=<TEAMDIR>
+ SearchPath=<VEHDIR>
+ SearchPath=<VEHDIR>\WP&MV Enduro\Prototypes\Corvette_DP
+ MASFile=WP&MV Enduro\Prototypes\Corvette_DP\Corvette_DP.mas
+ MASFile=WP&MV Enduro\Prototypes\Corvette_DP\Corvette_DP_Cpit.mas
+ MASFile=WP&MV Enduro\Prototypes\Corvette_DP\Corvette_DP_Tex.mas
+ MASFile=WP&MV Enduro\MVWPMAPS.mas
+
+ ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+ Moveable=True
+ MeshFile=Corvette_DP_CHASSIS_LODA_D.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(60.0) Reflect=True
+ MeshFile=Corvette_DP_INTERIOR_LODA_D.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=Corvette_DP_MIRROR_L_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(50.0) Reflect=True
+ MeshFile=Corvette_DP_MIRROR_R_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 256, 256) LODIn=(0.00) LODOut=(50.0) Reflect=True
+// MeshFile=Corvette_DP_GLOW.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) Reflect=True
+ 
+ Actor=VEHICLE
+
+ Instance=WHEELEXT
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_SWHEEL_EXT_D.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(30.00) Reflect=True
+ }
+ 
+//----------------------------------------= DAMAGE =----------------------------------------\\
+
+ Instance=DETAILEDENGINE
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_DETAILEDENGINE.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(25.0)
+ }
+ 
+//----------------------------------------= WINGS =----------------------------------------\\
+ 
+ Instance=FWING // FRONT BUMPER
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_SPLITTER_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=RWING 
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_WING_LODA.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+//----------------------------------------= ADDITIONAL DETACHABLES =----------------------------------------\\
+ 
+ Instance=DEBRIS0 // LIGHT LF
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_LIGHTGLASS_LF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.00) Reflect=True
+ }
+
+ Instance=DEBRIS1 // LIGHT RF
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_LIGHTGLASS_RF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.00) Reflect=True 
+ }
+
+ Instance=DEBRIS2 // LIGHT LR
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_LIGHTGLASS_LR.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.00) Reflect=True
+ }
+
+ Instance=DEBRIS3 // LIGHT RR
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_LIGHTGLASS_RR.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.00) Reflect=True
+ }
+ 
+ Instance=DEBRIS6 // LWINGLET
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_WINGLET_LF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+ 
+ Instance=DEBRIS7 // RWINGLET
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_WINGLET_RF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.0) LODOut=(200.0) Reflect=True
+ }
+
+//----------------------------------------= WHEELS =----------------------------------------\\
+
+ Instance=LFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_RIM_LF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_TIRE_LF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_DISK_LF.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_CALIPER_LF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=RFTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_RIM_RF_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_TIRE_RF_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_DISK_RF.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RFSPINDLE
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_CALIPER_RF.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+//---------
+
+ Instance=LRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_RIM_LR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_TIRE_LR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_DISK_LR.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=LRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_CALIPER_LR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+ 
+//---------
+
+ Instance=RRTIRESPIN
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_RIM_RR_<1>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_TIRE_RR_<23>.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 1024, 1024) LODIn=(0.00) LODOut=(500.0) Reflect=True
+ MeshFile=Corvette_DP_DISK_RR.GMT CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+
+ Instance=RRSPINDLE
+ {
+ Moveable=True
+ MeshFile=Corvette_DP_CALIPER_RR.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) Reflect=True
+ }
+}

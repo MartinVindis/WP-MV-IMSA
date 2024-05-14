@@ -1,0 +1,35 @@
+DefaultLivery="IMSA16_BMW100.dds"
+
+HDVehicle=M6_GTE.hdv
+Graphics=M6_GTE_Lights_A.gen
+Spinner=M6_GTE_Spinner_Lights_A.gen
+Cameras=M6_GTE.cam
+GenString=2M3XX0X0O
+Sounds=M6_GTE.sfx
+HeadPhysics=MVWP_HeadPhysics.ini
+Cockpit=M6_GTE_Cpit.ini
+Upgrades=M6_GTE_Upgrades.ini
+
+BaseVehiclePrice=0
+UnlockExperience=0
+
+Number=100
+Team="BMW Team RLL #100"
+PitGroup="Group4"
+Driver1="Lucas Luhr"
+Description="BMW M6 #100"
+Engine="BMW P63 4.4L V8 Twin Turbo"
+Manufacturer="BMW Motorsport"
+Transmission="Ricardo 6-speed sequential"
+Extra="front engine, rear wheel drive" 
+Classes="Wilson-VindisGT"
+
+FullTeamName="BMW Team RLL #100"
+TeamFounded=""
+TeamHeadquarters=""
+TeamStarts=n/a
+TeamPoles=n/a
+TeamWins=n/a
+TeamWorldChampionships=n/a
+
+Category="Wilson-VindisGT, GTLM"
